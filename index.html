@@ -22,7 +22,8 @@
             <nav>
                 <ul class="nav-menu">
                     <li><a href="#equipo" class="nav-link">El Equipo</a></li>
-                    <li><a href="#documentacion" class="nav-link">Documentación</a></li>
+                    <li><a href="https://marshy-aardvark-2d2.notion.site/Documentaci-n-T-cnica-Puy-dou-Fou-29b912398ae08115a160c9b7af2ea932"
+                            target="_blank" class="nav-link">Documentación 📄</a></li>
                 </ul>
             </nav>
         </div>
@@ -131,48 +132,107 @@
                 <h2 class="section-title">Documentación del <span class="text-gold">Proyecto</span></h2>
                 <p class="mt-md"
                     style="color: var(--color-cream); font-size: 1.2rem; max-width: 800px; margin-left: auto; margin-right: auto;">
-                    Accede a toda la información técnica y estratégica del proyecto
+                    Accede a toda la información técnica y estratégica del proyecto directamente desde Notion
                 </p>
             </div>
 
-            <div class="documentation-container">
+            <!-- Notion iframe -->
+            <div
+                style="margin-top: var(--spacing-lg); background: rgba(255, 255, 255, 0.05); backdrop-filter: blur(10px); border-radius: var(--radius-lg); padding: var(--spacing-md); border: 1px solid rgba(212, 175, 55, 0.2);">
+                <iframe src="https://marshy-aardvark-2d2.notion.site/ebd/29b912398ae08115a160c9b7af2ea932" width="100%"
+                    height="900" frameborder="0" allowfullscreen
+                    style="border: none; border-radius: var(--radius-md); background: white;"
+                    title="Documentación Técnica Puy Du Fou">
+                </iframe>
+            </div>
+
+            <div style="margin-top: var(--spacing-md); text-align: center;">
+                <a href="https://marshy-aardvark-2d2.notion.site/Documentaci-n-T-cnica-Puy-dou-Fou-29b912398ae08115a160c9b7af2ea932"
+                    target="_blank" class="hero-cta"
+                    style="display: inline-block; background: linear-gradient(135deg, var(--color-secondary), var(--color-secondary-dark));">
+                    📄 Abrir en Notion (nueva pestaña) ↗
+                </a>
+            </div>
+
+            <div class="documentation-container" style="display: none;">
                 <!-- Sidebar Navigation -->
                 <aside class="doc-sidebar">
                     <nav>
                         <ul class="doc-menu">
                             <li class="doc-menu-item">
-                                <a href="#doc-tareas" class="doc-menu-link active" data-section="tareas">
-                                    Asignación de tareas
+                                <a href="#doc-objetivos" class="doc-menu-link active" data-section="objetivos">
+                                    🎯 Objetivos & estrategia de negocio
                                 </a>
                             </li>
                             <li class="doc-menu-item">
                                 <a href="#doc-modelo" class="doc-menu-link" data-section="modelo">
-                                    Modelo de datos
+                                    🗄️ Modelo de Datos
                                 </a>
                             </li>
                             <li class="doc-menu-item">
                                 <a href="#doc-arquitectura" class="doc-menu-link" data-section="arquitectura">
-                                    Arquitectura
-                                </a>
-                            </li>
-                            <li class="doc-menu-item">
-                                <a href="#doc-dafo" class="doc-menu-link" data-section="dafo">
-                                    Análisis & DAFO
+                                    📚 Arquitectura e Integración
                                 </a>
                             </li>
                             <li class="doc-menu-item">
                                 <a href="#doc-persona" class="doc-menu-link" data-section="persona">
-                                    Buyer Persona
+                                    👥 Buyer Persona
+                                </a>
+                            </li>
+                            <li class="doc-menu-item">
+                                <a href="#doc-competidores" class="doc-menu-link" data-section="competidores">
+                                    🏆 Competidores
+                                </a>
+                            </li>
+                            <li class="doc-menu-item">
+                                <a href="#doc-analisis" class="doc-menu-link" data-section="analisis">
+                                    📊 Análisis
                                 </a>
                             </li>
                             <li class="doc-menu-item">
                                 <a href="#doc-roadmap" class="doc-menu-link" data-section="roadmap">
-                                    Roadmap & Journeys
+                                    🗺️ Roadmaps Journeys de clientes
+                                </a>
+                            </li>
+                            <li class="doc-menu-item has-submenu">
+                                <a href="#doc-journeys" class="doc-menu-link" data-section="journeys">
+                                    💎 Journeys
+                                </a>
+                                <ul class="doc-submenu">
+                                    <li class="doc-menu-item">
+                                        <a href="#doc-journey-carrito" class="doc-menu-link"
+                                            data-section="journey-carrito">
+                                            🛒 Carrito Abandonado
+                                        </a>
+                                    </li>
+                                    <li class="doc-menu-item">
+                                        <a href="#doc-journey-previsita" class="doc-menu-link"
+                                            data-section="journey-previsita">
+                                            📅 Pre-Visita
+                                        </a>
+                                    </li>
+                                    <li class="doc-menu-item">
+                                        <a href="#doc-journey-visita" class="doc-menu-link"
+                                            data-section="journey-visita">
+                                            🎭 Durante la Visita
+                                        </a>
+                                    </li>
+                                    <li class="doc-menu-item">
+                                        <a href="#doc-journey-postvisita" class="doc-menu-link"
+                                            data-section="journey-postvisita">
+                                            📧 Post-Visita
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="doc-menu-item">
+                                <a href="#doc-loyalty" class="doc-menu-link" data-section="loyalty">
+                                    👑 Loyalty Management Program
                                 </a>
                             </li>
                             <li class="doc-menu-item">
-                                <a href="#doc-casos" class="doc-menu-link" data-section="casos">
-                                    Casos de Uso & Diagramas
+                                <a href="#doc-data360" class="doc-menu-link" data-section="data360">
+                                    🔄 Data 360
                                 </a>
                             </li>
                         </ul>
@@ -181,148 +241,450 @@
 
                 <!-- Content Area -->
                 <div class="doc-content">
-                    <!-- Asignación de tareas -->
-                    <div class="doc-section active" id="doc-tareas">
-                        <h3>Asignación de Tareas</h3>
-                        <p>
-                            La gestión eficiente de tareas es fundamental para el éxito del proyecto Puy Du Fou España.
-                            Nuestro sistema de asignación garantiza claridad en responsabilidades y seguimiento continuo
-                            del progreso.
+                    <!-- Objetivos & estrategia de negocio -->
+                    <div class="doc-section active" id="doc-objetivos">
+                        <h3>🎯 Objetivos & Estrategia de Negocio</h3>
+                        <p class="text-justify">
+                            La estrategia de negocio de Puy Du Fou España se centra en cuatro pilares fundamentales que
+                            guiarán todas las acciones de marketing, tecnología y experiencia del cliente. Cada objetivo
+                            está diseñado para maximizar la captación, fidelización y satisfacción de los visitantes,
+                            creando un ecosistema digital y físico integrado que potencie el valor de la marca.
                         </p>
+
                         <h4
                             style="color: var(--color-accent); margin-top: var(--spacing-md); margin-bottom: var(--spacing-sm);">
-                            Metodología de Trabajo
+                            📈 Captación de Leads
                         </h4>
-                        <ul>
-                            <li>Sprints de 2 semanas con objetivos claros y medibles</li>
-                            <li>Daily stand-ups para sincronización del equipo</li>
-                            <li>Revisiones semanales de progreso con stakeholders</li>
-                            <li>Retrospectivas para mejora continua</li>
-                        </ul>
+                        <p class="text-justify">
+                            <strong>Objetivo:</strong> Atraer nuevos visitantes potenciales mediante experiencias
+                            digitales interactivas y campañas virales.
+                        </p>
+
+                        <div class="content-block">
+                            <h4>Experiencias Interactivas en la Web</h4>
+                            <ul>
+                                <li><strong>Juego "¿Qué personaje medieval eres?"</strong> → Al finalizar, se pide el
+                                    email para enviar un resultado personalizado y un incentivo. Objetivo: captar
+                                    correos de posibles visitantes mediante entretenimiento temático.</li>
+                                <li><strong>Landing "Planifica tu aventura"</strong> → Los usuarios diseñan su propio
+                                    itinerario (torneos, taberna, etc.). Para obtenerlo, dejan su email y reciben un PDF
+                                    personalizado. Objetivo: captación + segmentación por intereses (familias, parejas,
+                                    grupos escolares).</li>
+                            </ul>
+                        </div>
+
+                        <div class="content-block">
+                            <h4>Campañas de Referidos</h4>
+                            <ul>
+                                <li><strong>"Trae a tu séquito"</strong> → Cada usuario tiene un enlace o código único.
+                                    Ganan incentivos (camiseta/entrada gratis/descuento en comida). Objetivo:
+                                    adquisición viral y orgánica.</li>
+                            </ul>
+                        </div>
+
+                        <div class="content-block">
+                            <h4>IA Integrada con Redes Sociales</h4>
+                            <ul>
+                                <li><strong>Fotos medievales con IA</strong> → El usuario sube una foto en la App y una
+                                    IA genera su retrato al estilo personaje histórico.</li>
+                                <li>Para descargarlo, se solicita registro o suscripción al boletín.</li>
+                                <li>Se incentiva compartir con hashtag <strong>#PuyDuFouMedieval</strong>.</li>
+                                <li><strong>Objetivo:</strong> leads + visibilidad en redes + expectación pre-visita.
+                                </li>
+                                <li><strong>Herramientas:</strong> Filtros Instagram/TikTok + API IA (Stable Diffusion /
+                                    Midjourney / D-ID).</li>
+                            </ul>
+                        </div>
+
                         <h4
                             style="color: var(--color-accent); margin-top: var(--spacing-md); margin-bottom: var(--spacing-sm);">
-                            Herramientas Utilizadas
+                            🛡️ Fidelización de Clientes Existentes
                         </h4>
-                        <ul>
-                            <li>Jira para gestión de proyectos y seguimiento de tareas</li>
-                            <li>Confluence para documentación colaborativa</li>
-                            <li>Slack para comunicación en tiempo real</li>
-                            <li>GitHub para control de versiones y revisión de código</li>
-                        </ul>
+                        <p class="text-justify">
+                            <strong>Objetivo:</strong> Mantener y reactivar a los visitantes actuales mediante programas
+                            de lealtad y comunicaciones personalizadas.
+                        </p>
+
+                        <div class="content-block">
+                            <h4>Programa "Caballeros Leales"</h4>
+                            <ul>
+                                <li>Sistema de puntos por cada visita, compra o interacción en la app.</li>
+                                <li><strong>Rangos:</strong> Visitador → Explorador de Leyendas → Cronista del Tiempo →
+                                    Guardián de la Historia.</li>
+                                <li><strong>Beneficios:</strong> descuentos, acceso prioritario, eventos exclusivos.
+                                </li>
+                                <li><strong>Objetivo:</strong> aumentar recurrencia.</li>
+                            </ul>
+                        </div>
+
+                        <div class="content-block">
+                            <h4>Notificaciones PUSH en la App</h4>
+                            <ul>
+                                <li>Alertas según perfil: "Tu torneo favorito comienza en 15 min" o "hay un nuevo menú
+                                    en la taberna".</li>
+                                <li><strong>Objetivo:</strong> engagement en tiempo real.</li>
+                            </ul>
+                        </div>
+
+                        <div class="content-block">
+                            <h4>Encuestas Post-Visita con Recompensa</h4>
+                            <ul>
+                                <li>Encuesta breve en app o email ("Valora tu aventura").</li>
+                                <li>A cambio: descuento en comida o con partners.</li>
+                                <li><strong>Objetivo:</strong> retención + feedback para mejora continua.</li>
+                            </ul>
+                        </div>
+
+                        <div class="content-block">
+                            <h4>Calendario de Eventos Especiales</h4>
+                            <ul>
+                                <li>Recordatorios automáticos: "Festival del Dragón", "Mercado Medieval", "Especial
+                                    Navidad".</li>
+                                <li>Acceso prioritario para registrados.</li>
+                                <li><strong>Objetivo:</strong> reactivación periódica.</li>
+                            </ul>
+                        </div>
+
+                        <h4
+                            style="color: var(--color-accent); margin-top: var(--spacing-md); margin-bottom: var(--spacing-sm);">
+                            🧠 Mejora de la Experiencia del Cliente
+                        </h4>
+                        <p class="text-justify">
+                            <strong>Objetivo:</strong> Hacer más fluida, personalizada y memorable la visita mediante
+                            tecnología y geolocalización.
+                        </p>
+
+                        <div class="content-block">
+                            <h4>Geolocalización mediante QR</h4>
+                            <ul>
+                                <li>Geolocalización en tiempo real con rutas sugeridas mediante pulsera QR.</li>
+                                <li>Mensajes push según zona del parque: "Últimas plazas para el espectáculo 'El Último
+                                    Cantar'".</li>
+                                <li><strong>Objetivo:</strong> reducir frustración, aumentar satisfacción y mejorar
+                                    experiencia física.</li>
+                            </ul>
+                        </div>
+
+                        <div class="content-block">
+                            <h4>Recomendador Inteligente</h4>
+                            <ul>
+                                <li>Basado en preferencias previas: "Te gustó el espectáculo de arquería, te
+                                    recomendamos el entrenamiento de espadas".</li>
+                                <li><strong>Objetivo:</strong> personalización dinámica.</li>
+                            </ul>
+                        </div>
+
+                        <h4
+                            style="color: var(--color-accent); margin-top: var(--spacing-md); margin-bottom: var(--spacing-sm);">
+                            💰 Aumentar el Ticket Medio
+                        </h4>
+                        <p class="text-justify">
+                            <strong>Objetivo:</strong> Incrementar el gasto promedio por visitante mediante experiencias
+                            premium y upselling inteligente.
+                        </p>
+
+                        <div class="content-block">
+                            <h4>Experiencias Temáticas Premium</h4>
+                            <ul>
+                                <li><strong>Paquete "Caballero por un día"</strong> → Foto, vestuario, actividades con
+                                    acceso prioritario.</li>
+                                <li>Incluye fotos temáticas y vídeo resumen vinculados a pulsera QR.</li>
+                                <li>Compartibles con #PuyDuFouMedieval o compra física/digital.</li>
+                                <li><strong>Objetivo:</strong> generar ingresos y viralización.</li>
+                            </ul>
+                        </div>
+
+                        <div class="content-block">
+                            <h4>Restauración: Upselling Inteligente</h4>
+                            <ul>
+                                <li>Recomendaciones personalizadas de tabernas según hora, localización y preferencias.
+                                </li>
+                                <li>Avisos push de aforo: "El Mesón de Carlomagno tiene aforo completo hasta las 15:00".
+                                </li>
+                                <li><strong>Packs según audiencia:</strong>
+                                    <ul>
+                                        <li>Familias → Menús infantiles</li>
+                                        <li>Grupos → Menú cerrado</li>
+                                        <li>Cumpleañeros → Menú especial cumpleaños</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="content-block">
+                            <h4>Experiencia "Cumpleaños Medieval"</h4>
+                            <p class="text-justify">
+                                Crear una experiencia diferenciadora para visitantes que cumplen años, incentivando
+                                visitas adicionales y consumo en restauración.
+                            </p>
+                            <ul>
+                                <li><strong>Menú "Banquete Real":</strong> Entrantes + primero + segundo + postre con
+                                    vela + bebida especial "Hidromiel de Aniversario" + corona conmemorativa + canción
+                                    por grupo trovador.</li>
+                                <li><strong>Menú gratuito</strong> para grupos de 6 personas con reserva previa.</li>
+                                <li><strong>Banquete Premium (+30€):</strong> Tarta personalizada + foto impresa con
+                                    vestuario medieval + prioridad en actividad temática.</li>
+                                <li><strong>Coronación "Caballero":</strong> Mini ceremonia con maestro de armas + vídeo
+                                    ceremonial.</li>
+                            </ul>
+                        </div>
+
+                        <div class="content-block">
+                            <h4>Merchandising Medieval (Cross-selling)</h4>
+                            <ul>
+                                <li>Catálogo dinámico en app + recomendaciones según historial.</li>
+                                <li><strong>Segmentación:</strong>
+                                    <ul>
+                                        <li>Familias: espadas de madera, escudos, disfraces...</li>
+                                        <li>Amigos: camisetas, tazas, túnicas, armas...</li>
+                                        <li>Adultos +60: marroquinería, botas, sombreros...</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
 
                     <!-- Modelo de datos -->
                     <div class="doc-section" id="doc-modelo">
-                        <h3>Modelo de Datos</h3>
-                        <p>
-                            El modelo de datos de Puy Du Fou España está diseñado para soportar una experiencia
-                            de usuario fluida y escalable, integrando información de visitantes, espectáculos,
-                            reservas y análisis en tiempo real.
+                        <h3>🗄️ Modelo de Datos</h3>
+                        <p class="text-justify">
+                            El ecosistema Salesforce para el proyecto de Puy du Fou España se compone de cuatro pilares
+                            principales que trabajan de forma integrada para ofrecer una experiencia 360 del visitante.
                         </p>
+
                         <h4
                             style="color: var(--color-accent); margin-top: var(--spacing-md); margin-bottom: var(--spacing-sm);">
-                            Entidades Principales
+                            Pilares del Ecosistema Salesforce
                         </h4>
-                        <ul>
-                            <li><strong>Visitantes:</strong> Información de usuarios, preferencias y historial</li>
-                            <li><strong>Espectáculos:</strong> Catálogo de shows, horarios y capacidad</li>
-                            <li><strong>Reservas:</strong> Sistema de booking con gestión de disponibilidad</li>
-                            <li><strong>Eventos:</strong> Programación especial y eventos temporales</li>
-                            <li><strong>Análisis:</strong> Métricas de rendimiento y comportamiento de usuarios</li>
-                        </ul>
+
+                        <div class="content-block">
+                            <h4>1. Service Cloud</h4>
+                            <p class="text-justify">
+                                Plataforma principal para la gestión de la atención al cliente: sugerencias,
+                                reclamaciones, dudas e incidencias relacionadas con la experiencia en el parque y la app
+                                de juego.
+                            </p>
+                            <ul>
+                                <li><strong>Objeto clave:</strong> Case (relacionado con Account/Person Account y Visit)
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="content-block">
+                            <h4>2. Agentforce (IA de Servicio)</h4>
+                            <p class="text-justify">
+                                Agente virtual configurado sobre Service Cloud que:
+                            </p>
+                            <ul>
+                                <li>Recibe y entiende las consultas del cliente</li>
+                                <li>Propone y registra soluciones en los casos</li>
+                                <li>Escala automáticamente a un agente humano cuando:
+                                    <ul>
+                                        <li>El cliente indica explícitamente que no se ha resuelto</li>
+                                        <li>Se detecta una determinada prioridad/impacto (según reglas de negocio)</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="content-block">
+                            <h4>3. Marketing Cloud</h4>
+                            <p class="text-justify">
+                                Recibe datos por dos vías:
+                            </p>
+                            <ul>
+                                <li><strong>Vía Service Cloud:</strong> sincronización de Contact/Person Account</li>
+                                <li><strong>Vía API con BBDD de Puy du Fou:</strong> importación de datos operacionales
+                                    (visitas, compras, shows vistos)</li>
+                            </ul>
+                            <p class="text-justify">
+                                <strong>Se utiliza para:</strong>
+                            </p>
+                            <ul>
+                                <li>Enviar notificaciones push (pre-visita, visita y post-visita)</li>
+                                <li>Enviar comunicaciones vinculadas al juego gamificado de la app (sellos, niveles,
+                                    logros)</li>
+                            </ul>
+                        </div>
+
+                        <div class="content-block">
+                            <h4>4. Data Cloud</h4>
+                            <p class="text-justify">
+                                Punto central de unificación de datos (Customer 360):
+                            </p>
+                            <ul>
+                                <li>Recibe datos desde Service Cloud y Marketing Cloud / BBDD externa</li>
+                                <li>Construye el <strong>Unique Contact</strong> (perfil unificado) combinando:
+                                    <ul>
+                                        <li>Identidad CRM (Person Account)</li>
+                                        <li>Datos de visita y juego de la app</li>
+                                        <li>Interacciones de servicio y marketing</li>
+                                    </ul>
+                                </li>
+                                <li>Crea segmentaciones dinámicas (familias recurrentes, jugadores activos, visitantes
+                                    con incidencias, etc.)</li>
+                                <li>Envía segmentos a Marketing Cloud para activar journeys y campañas personalizadas
+                                </li>
+                            </ul>
+                        </div>
+
                         <h4
                             style="color: var(--color-accent); margin-top: var(--spacing-md); margin-bottom: var(--spacing-sm);">
-                            Tecnologías
+                            Fuentes de Datos y Unificación
                         </h4>
-                        <ul>
-                            <li>Base de datos relacional PostgreSQL para datos transaccionales</li>
-                            <li>MongoDB para datos no estructurados y logs</li>
-                            <li>Redis para caché y sesiones de usuario</li>
-                            <li>Elasticsearch para búsqueda avanzada</li>
-                        </ul>
+
+                        <p class="text-justify">
+                            La experiencia del visitante genera información en múltiples puntos de contacto que se
+                            consolidan en Data Cloud para crear un <strong>Golden Record del Visitante</strong>.
+                        </p>
+
+                        <div class="content-block">
+                            <h4>Fuentes de Datos Digitales (Online)</h4>
+                            <ul>
+                                <li><strong>Web y Portal de Reservas:</strong> Creación de cuenta, selección de fechas,
+                                    carritos de compra, confirmaciones, preferencias</li>
+                                <li><strong>Aplicación Móvil:</strong> Registro, QR de entrada, escaneo de códigos,
+                                    gamificación, notificaciones push</li>
+                            </ul>
+                        </div>
+
+                        <div class="content-block">
+                            <h4>Fuentes de Datos Presenciales (On-Park)</h4>
+                            <ul>
+                                <li><strong>Pulseras NFC/QR:</strong> Validación de acceso, identificación en zonas
+                                    temáticas, participación en actividades</li>
+                                <li><strong>Red WiFi del Parque:</strong> Conexión con formulario, tiempo de
+                                    permanencia, consentimientos</li>
+                                <li><strong>TPV (Restauración y Tiendas):</strong> Tickets de compra, productos
+                                    adquiridos, medio de pago</li>
+                            </ul>
+                        </div>
+
+                        <div class="content-block">
+                            <h4>Proceso de Unificación en Data Cloud</h4>
+                            <ol>
+                                <li><strong>Ingesta y Normalización:</strong> Limpieza, normalización de formatos,
+                                    estandarización de campos</li>
+                                <li><strong>Identity Resolution:</strong> Unificación de múltiples identificadores
+                                    (email, teléfono, ID app, pulsera RFID, QR, dispositivo WiFi)</li>
+                                <li><strong>Golden Record:</strong> Perfil único consolidado con atributos demográficos,
+                                    comportamiento, fidelización y satisfacción</li>
+                                <li><strong>Publicación y Activación:</strong> Distribución a Service Cloud y Marketing
+                                    Cloud para personalización</li>
+                            </ol>
+                        </div>
                     </div>
 
-                    <!-- Arquitectura -->
+                    <!-- Arquitectura e Integración -->
                     <div class="doc-section" id="doc-arquitectura">
-                        <h3>Arquitectura del Sistema</h3>
-                        <p>
-                            La arquitectura de Puy Du Fou España sigue un enfoque de microservicios,
-                            garantizando escalabilidad, mantenibilidad y resiliencia del sistema.
+                        <h3>📚 Arquitectura e Integración</h3>
+                        <p class="text-justify">
+                            El ecosistema tecnológico de Puy Du Fou España está construido sobre Salesforce, integrando
+                            cuatro componentes principales que trabajan de forma sincronizada para ofrecer una
+                            experiencia completa del visitante.
                         </p>
-                        <h4
-                            style="color: var(--color-accent); margin-top: var(--spacing-md); margin-bottom: var(--spacing-sm);">
-                            Capas de la Arquitectura
-                        </h4>
-                        <ul>
-                            <li><strong>Capa de Presentación:</strong> React.js con Next.js para SSR y SEO optimizado
-                            </li>
-                            <li><strong>Capa de API:</strong> Node.js con Express para servicios RESTful</li>
-                            <li><strong>Capa de Negocio:</strong> Microservicios independientes por dominio</li>
-                            <li><strong>Capa de Datos:</strong> Múltiples bases de datos especializadas</li>
-                            <li><strong>Capa de Integración:</strong> Message broker con RabbitMQ</li>
-                        </ul>
-                        <h4
-                            style="color: var(--color-accent); margin-top: var(--spacing-md); margin-bottom: var(--spacing-sm);">
-                            Infraestructura
-                        </h4>
-                        <ul>
-                            <li>Despliegue en AWS con alta disponibilidad</li>
-                            <li>Contenedores Docker orquestados con Kubernetes</li>
-                            <li>CI/CD con GitHub Actions y ArgoCD</li>
-                            <li>Monitorización con Prometheus y Grafana</li>
-                        </ul>
-                    </div>
 
-                    <!-- Análisis & DAFO -->
-                    <div class="doc-section" id="doc-dafo">
-                        <h3>Análisis & DAFO</h3>
-                        <p>
-                            El análisis DAFO (Debilidades, Amenazas, Fortalezas, Oportunidades) nos permite
-                            identificar factores clave para el éxito del proyecto.
+                        <table class="doc-table">
+                            <thead>
+                                <tr>
+                                    <th>Componente</th>
+                                    <th>Función Principal</th>
+                                    <th>Objetos/Características Clave</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><strong>Service Cloud</strong></td>
+                                    <td class="text-justify">Gestión de atención al cliente: sugerencias, reclamaciones,
+                                        dudas e incidencias</td>
+                                    <td>
+                                        • Objeto Case<br>
+                                        • Account/Person Account<br>
+                                        • Visit (objeto personalizado)
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Agentforce (IA)</strong></td>
+                                    <td class="text-justify">Agente virtual que atiende consultas y escala a humanos
+                                        cuando es necesario</td>
+                                    <td>
+                                        • Comprensión de consultas<br>
+                                        • Registro de soluciones<br>
+                                        • Escalado inteligente
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Marketing Cloud</strong></td>
+                                    <td class="text-justify">Comunicaciones personalizadas y automatización de journeys
+                                    </td>
+                                    <td>
+                                        • Journey Builder<br>
+                                        • Email Studio<br>
+                                        • Mobile Push<br>
+                                        • Data Extensions
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Data Cloud</strong></td>
+                                    <td class="text-justify">Unificación de datos y creación del perfil 360 del
+                                        visitante</td>
+                                    <td>
+                                        • Identity Resolution<br>
+                                        • Golden Record<br>
+                                        • Segmentación dinámica<br>
+                                        • Activaciones en tiempo real
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <h4
+                            style="color: var(--color-accent); margin-top: var(--spacing-md); margin-bottom: var(--spacing-sm);">
+                            Flujo de Integración de Datos
+                        </h4>
+
+                        <div class="content-block">
+                            <h4>1. Captura de Datos</h4>
+                            <ul>
+                                <li><strong>Web/App:</strong> Formularios, navegación, compras online</li>
+                                <li><strong>Parque:</strong> Pulseras NFC/QR, WiFi, TPV, espectáculos</li>
+                                <li><strong>Service:</strong> Cases, interacciones de soporte</li>
+                            </ul>
+                        </div>
+
+                        <div class="content-block">
+                            <h4>2. Unificación en Data Cloud</h4>
+                            <p class="text-justify">
+                                Todos los datos fluyen hacia Data Cloud donde se:
+                            </p>
+                            <ul>
+                                <li>Normalizan y limpian</li>
+                                <li>Unifican identidades (email, teléfono, pulsera, app ID)</li>
+                                <li>Crean el perfil único del visitante (Golden Record)</li>
+                                <li>Generan segmentos dinámicos</li>
+                            </ul>
+                        </div>
+
+                        <div class="content-block">
+                            <h4>3. Activación y Personalización</h4>
+                            <ul>
+                                <li><strong>Hacia Service Cloud:</strong> Agentes ven historial completo del visitante
+                                </li>
+                                <li><strong>Hacia Marketing Cloud:</strong> Journeys personalizados según comportamiento
+                                </li>
+                                <li><strong>Hacia la App:</strong> Recomendaciones en tiempo real</li>
+                            </ul>
+                        </div>
+
+                        <p style="margin-top: var(--spacing-md); font-style: italic; color: var(--color-light-gray);">
+                            � <em>Nota: Cada objeto de la tabla puede expandirse con documentación detallada en futuras
+                                versiones</em>
                         </p>
-                        <h4
-                            style="color: var(--color-accent); margin-top: var(--spacing-md); margin-bottom: var(--spacing-sm);">
-                            Fortalezas
-                        </h4>
-                        <ul>
-                            <li>Marca reconocida internacionalmente con prestigio histórico</li>
-                            <li>Equipo multidisciplinar altamente cualificado</li>
-                            <li>Tecnología de vanguardia en experiencias inmersivas</li>
-                            <li>Contenido histórico único y auténtico</li>
-                        </ul>
-                        <h4
-                            style="color: var(--color-accent); margin-top: var(--spacing-md); margin-bottom: var(--spacing-sm);">
-                            Oportunidades
-                        </h4>
-                        <ul>
-                            <li>Creciente demanda de turismo cultural y experiencial</li>
-                            <li>Expansión digital y experiencias virtuales</li>
-                            <li>Colaboraciones con instituciones educativas</li>
-                            <li>Mercado internacional en crecimiento</li>
-                        </ul>
-                        <h4
-                            style="color: var(--color-accent); margin-top: var(--spacing-md); margin-bottom: var(--spacing-sm);">
-                            Debilidades
-                        </h4>
-                        <ul>
-                            <li>Dependencia de condiciones meteorológicas para espectáculos al aire libre</li>
-                            <li>Alta inversión inicial en infraestructura</li>
-                            <li>Estacionalidad del turismo</li>
-                        </ul>
-                        <h4
-                            style="color: var(--color-accent); margin-top: var(--spacing-md); margin-bottom: var(--spacing-sm);">
-                            Amenazas
-                        </h4>
-                        <ul>
-                            <li>Competencia de otros parques temáticos</li>
-                            <li>Cambios en preferencias de consumo post-pandemia</li>
-                            <li>Fluctuaciones económicas que afectan el turismo</li>
-                        </ul>
                     </div>
 
                     <!-- Buyer Persona -->
                     <div class="doc-section" id="doc-persona">
-                        <h3>Buyer Persona</h3>
+                        <h3>👥 Buyer Persona</h3>
                         <p>
                             Hemos identificado tres perfiles principales de visitantes para personalizar
                             nuestra oferta y comunicación.
@@ -359,90 +721,263 @@
                             </li>
                             <li><strong>Canales:</strong> Instagram, TikTok, YouTube</li>
                         </ul>
+                        <p style="margin-top: var(--spacing-md); font-style: italic; color: var(--color-light-gray);">
+                            📝 <em>Contenido detallado de Notion pendiente de integración</em>
+                        </p>
                     </div>
 
-                    <!-- Roadmap & Journeys -->
-                    <div class="doc-section" id="doc-roadmap">
-                        <h3>Roadmap & User Journeys</h3>
-                        <p>
-                            Nuestro roadmap define las fases de desarrollo y lanzamiento del proyecto,
-                            mientras que los user journeys mapean la experiencia completa del visitante.
-                        </p>
-                        <h4
-                            style="color: var(--color-accent); margin-top: var(--spacing-md); margin-bottom: var(--spacing-sm);">
-                            Roadmap 2025-2026
-                        </h4>
+                    <h4
+                        style="color: var(--color-accent); margin-top: var(--spacing-md); margin-bottom: var(--spacing-sm);">
+                        Análisis Detallado de Competidores
+                    </h4>
+
+                    <div class="content-block">
+                        <h4>Competidores Directos</h4>
                         <ul>
-                            <li><strong>Q1 2025:</strong> Desarrollo de plataforma web y app móvil</li>
-                            <li><strong>Q2 2025:</strong> Sistema de reservas y gestión de visitantes</li>
-                            <li><strong>Q3 2025:</strong> Integración de experiencias AR/VR</li>
-                            <li><strong>Q4 2025:</strong> Lanzamiento beta y testing con usuarios</li>
-                            <li><strong>Q1 2026:</strong> Lanzamiento oficial y campaña de marketing</li>
-                            <li><strong>Q2 2026:</strong> Expansión de contenidos y nuevos espectáculos</li>
-                        </ul>
-                        <h4
-                            style="color: var(--color-accent); margin-top: var(--spacing-md); margin-bottom: var(--spacing-sm);">
-                            User Journey: Visitante Típico
-                        </h4>
-                        <ul>
-                            <li><strong>Descubrimiento:</strong> Anuncios en redes, recomendaciones, búsqueda web</li>
-                            <li><strong>Investigación:</strong> Visita web, lee reseñas, compara opciones</li>
-                            <li><strong>Reserva:</strong> Selecciona fecha, compra entradas, recibe confirmación</li>
-                            <li><strong>Pre-visita:</strong> Descarga app, planifica itinerario, recibe recordatorios
-                            </li>
-                            <li><strong>Experiencia:</strong> Check-in digital, disfruta espectáculos, interactúa con
-                                app</li>
-                            <li><strong>Post-visita:</strong> Comparte en redes, deja reseña, recibe ofertas futuras
-                            </li>
+                            <li><strong>Port Aventura:</strong> Parque temático líder en España, enfoque en
+                                entretenimiento y atracciones de adrenalina</li>
+                            <li><strong>Terra Mítica:</strong> Temática de civilizaciones antiguas, propuesta histórica
+                                similar pero menos inmersiva</li>
+                            <li><strong>Parque Warner:</strong> Entretenimiento familiar con personajes conocidos, sin
+                                componente histórico</li>
                         </ul>
                     </div>
 
-                    <!-- Casos de Uso & Diagramas -->
-                    <div class="doc-section" id="doc-casos">
-                        <h3>Casos de Uso & Diagramas de Flujo</h3>
-                        <p>
-                            Los casos de uso definen las interacciones principales entre usuarios y el sistema,
-                            mientras que los diagramas de flujo visualizan procesos clave.
-                        </p>
-                        <h4
-                            style="color: var(--color-accent); margin-top: var(--spacing-md); margin-bottom: var(--spacing-sm);">
-                            Caso de Uso 1: Reserva de Entradas
-                        </h4>
+                    <div class="content-block">
+                        <h4>Competidores Indirectos</h4>
                         <ul>
-                            <li><strong>Actor:</strong> Visitante potencial</li>
-                            <li><strong>Objetivo:</strong> Comprar entradas para una fecha específica</li>
-                            <li><strong>Precondiciones:</strong> Usuario tiene cuenta o crea una nueva</li>
-                            <li><strong>Flujo principal:</strong> Selecciona fecha → Elige tipo de entrada → Añade
-                                extras → Pago → Confirmación</li>
-                            <li><strong>Postcondiciones:</strong> Entrada reservada, confirmación enviada por email</li>
+                            <li>Museos y centros culturales con experiencias inmersivas</li>
+                            <li>Rutas turísticas históricas y monumentos</li>
+                            <li>Espectáculos teatrales y eventos culturales</li>
+                            <li>Experiencias de realidad virtual y entretenimiento digital</li>
                         </ul>
-                        <h4
-                            style="color: var(--color-accent); margin-top: var(--spacing-md); margin-bottom: var(--spacing-sm);">
-                            Caso de Uso 2: Planificación de Visita
-                        </h4>
+                    </div>
+
+                    <div class="content-block">
+                        <h4>Ventajas Competitivas de Puy du Fou</h4>
                         <ul>
-                            <li><strong>Actor:</strong> Visitante con entrada confirmada</li>
-                            <li><strong>Objetivo:</strong> Crear itinerario personalizado de espectáculos</li>
-                            <li><strong>Precondiciones:</strong> Tiene entrada válida y app instalada</li>
-                            <li><strong>Flujo principal:</strong> Ve horarios → Selecciona espectáculos → Guarda
-                                itinerario → Recibe notificaciones</li>
-                            <li><strong>Postcondiciones:</strong> Itinerario guardado, recordatorios configurados</li>
-                        </ul>
-                        <h4
-                            style="color: var(--color-accent); margin-top: var(--spacing-md); margin-bottom: var(--spacing-sm);">
-                            Caso de Uso 3: Gestión de Aforo
-                        </h4>
-                        <ul>
-                            <li><strong>Actor:</strong> Sistema de gestión</li>
-                            <li><strong>Objetivo:</strong> Controlar capacidad de espectáculos en tiempo real</li>
-                            <li><strong>Precondiciones:</strong> Sistema activo durante horario de parque</li>
-                            <li><strong>Flujo principal:</strong> Monitorea entradas → Actualiza disponibilidad →
-                                Bloquea si lleno → Notifica staff</li>
-                            <li><strong>Postcondiciones:</strong> Aforo controlado, experiencia optimizada</li>
+                            <li>✨ Autenticidad histórica sin precedentes</li>
+                            <li>🎭 Experiencias inmersivas de alta calidad</li>
+                            <li>🏰 Marca Puy Du Fou con reconocimiento internacional</li>
+                            <li>🔮 Integración de tecnología avanzada con narrativa histórica</li>
+                            <li>🎯 Propuesta de valor única que combina educación y entretenimiento</li>
                         </ul>
                     </div>
                 </div>
+
+                <!-- Análisis -->
+                <div class="doc-section" id="doc-analisis">
+                    <h3>📊 Análisis</h3>
+                    <p>
+                        Análisis exhaustivo del mercado, tendencias y oportunidades para Puy Du Fou España.
+                    </p>
+                    <h4
+                        style="color: var(--color-accent); margin-top: var(--spacing-md); margin-bottom: var(--spacing-sm);">
+                        Análisis DAFO
+                    </h4>
+                    <ul>
+                        <li><strong>Fortalezas:</strong> Marca reconocida, equipo cualificado, tecnología avanzada
+                        </li>
+                        <li><strong>Debilidades:</strong> Alta inversión inicial, dependencia meteorológica</li>
+                        <li><strong>Oportunidades:</strong> Turismo cultural en auge, expansión digital</li>
+                        <li><strong>Amenazas:</strong> Competencia, fluctuaciones económicas</li>
+                    </ul>
+                    <h4
+                        style="color: var(--color-accent); margin-top: var(--spacing-md); margin-bottom: var(--spacing-sm);">
+                        Análisis de Mercado
+                    </h4>
+                    <ul>
+                        <li>Mercado de parques temáticos en España: 20M visitantes/año</li>
+                        <li>Crecimiento del turismo cultural: +15% anual</li>
+                        <li>Tendencia hacia experiencias auténticas e inmersivas</li>
+                        <li>Digitalización del sector turístico post-COVID</li>
+                    </ul>
+                    <h4
+                        style="color: var(--color-accent); margin-top: var(--spacing-md); margin-bottom: var(--spacing-sm);">
+                        KPIs Principales
+                    </h4>
+                    <ul>
+                        <li>Número de visitantes mensuales y anuales</li>
+                        <li>Índice de satisfacción del cliente (NPS)</li>
+                        <li>Tasa de conversión web-to-ticket</li>
+                        <li>Revenue per visitor (RPV)</li>
+                        <li>Tasa de repetición de visitas</li>
+                    </ul>
+                    <p style="margin-top: var(--spacing-md); font-style: italic; color: var(--color-light-gray);">
+                        📝 <em>Contenido detallado de Notion pendiente de integración</em>
+                    </p>
+                </div>
+
+                <!-- Roadmaps Journeys de clientes -->
+                <div class="doc-section" id="doc-roadmap">
+                    <h3>🗺️ Roadmaps Journeys de Clientes</h3>
+                    <p>
+                        Nuestro roadmap define las fases de desarrollo y lanzamiento del proyecto,
+                        mapeando la experiencia completa del visitante en cada etapa.
+                    </p>
+                    <h4
+                        style="color: var(--color-accent); margin-top: var(--spacing-md); margin-bottom: var(--spacing-sm);">
+                        Roadmap 2025-2026
+                    </h4>
+                    <ul>
+                        <li><strong>Q1 2025:</strong> Desarrollo de plataforma web y app móvil</li>
+                        <li><strong>Q2 2025:</strong> Sistema de reservas y gestión de visitantes</li>
+                        <li><strong>Q3 2025:</strong> Integración de experiencias AR/VR</li>
+                        <li><strong>Q4 2025:</strong> Lanzamiento beta y testing con usuarios</li>
+                        <li><strong>Q1 2026:</strong> Lanzamiento oficial y campaña de marketing</li>
+                        <li><strong>Q2 2026:</strong> Expansión de contenidos y nuevos espectáculos</li>
+                    </ul>
+                    <h4
+                        style="color: var(--color-accent); margin-top: var(--spacing-md); margin-bottom: var(--spacing-sm);">
+                        Customer Journey Map
+                    </h4>
+                    <ul>
+                        <li><strong>Descubrimiento:</strong> Anuncios en redes, recomendaciones, búsqueda web</li>
+                        <li><strong>Investigación:</strong> Visita web, lee reseñas, compara opciones</li>
+                        <li><strong>Reserva:</strong> Selecciona fecha, compra entradas, recibe confirmación</li>
+                        <li><strong>Pre-visita:</strong> Descarga app, planifica itinerario, recibe recordatorios
+                        </li>
+                        <li><strong>Experiencia:</strong> Check-in digital, disfruta espectáculos, interactúa con
+                            app</li>
+                        <li><strong>Post-visita:</strong> Comparte en redes, deja reseña, recibe ofertas futuras
+                        </li>
+                    </ul>
+                    <p style="margin-top: var(--spacing-md); font-style: italic; color: var(--color-light-gray);">
+                        📝 <em>Contenido detallado de Notion pendiente de integración</em>
+                    </p>
+                </div>
+
+                <!-- Journeys -->
+                <div class="doc-section" id="doc-journeys">
+                    <h3>💎 Journeys</h3>
+                    <p>
+                        Definición detallada de los diferentes journeys automatizados para cada tipo de visitante
+                        y momento del ciclo de vida del cliente.
+                    </p>
+                    <h4
+                        style="color: var(--color-accent); margin-top: var(--spacing-md); margin-bottom: var(--spacing-sm);">
+                        Journey de Bienvenida
+                    </h4>
+                    <ul>
+                        <li>Email de bienvenida con guía del visitante</li>
+                        <li>Tips para planificar la visita</li>
+                        <li>Recomendaciones personalizadas según perfil</li>
+                        <li>Descarga de la app móvil</li>
+                    </ul>
+                    <h4
+                        style="color: var(--color-accent); margin-top: var(--spacing-md); margin-bottom: var(--spacing-sm);">
+                        Journey de Engagement
+                    </h4>
+                    <ul>
+                        <li>Recordatorios de visita (7 días, 3 días, 1 día antes)</li>
+                        <li>Información meteorológica y recomendaciones</li>
+                        <li>Ofertas de upgrades y servicios adicionales</li>
+                        <li>Contenido educativo sobre los espectáculos</li>
+                    </ul>
+                    <h4
+                        style="color: var(--color-accent); margin-top: var(--spacing-md); margin-bottom: var(--spacing-sm);">
+                        Journey Post-Visita
+                    </h4>
+                    <ul>
+                        <li>Encuesta de satisfacción</li>
+                        <li>Galería de fotos y recuerdos</li>
+                        <li>Invitación a programa de fidelización</li>
+                        <li>Ofertas para próximas visitas</li>
+                    </ul>
+                    <p style="margin-top: var(--spacing-md); font-style: italic; color: var(--color-light-gray);">
+                        📝 <em>Contenido detallado de Notion pendiente de integración</em>
+                    </p>
+                </div>
+
+                <!-- Loyalty Management Program -->
+                <div class="doc-section" id="doc-loyalty">
+                    <h3>👑 Loyalty Management Program</h3>
+                    <p>
+                        Programa de fidelización diseñado para recompensar a nuestros visitantes más frecuentes
+                        y crear una comunidad de embajadores de marca.
+                    </p>
+                    <h4
+                        style="color: var(--color-accent); margin-top: var(--spacing-md); margin-bottom: var(--spacing-sm);">
+                        Niveles del Programa
+                    </h4>
+                    <ul>
+                        <li><strong>Explorador (Bronce):</strong> Primera visita, beneficios básicos</li>
+                        <li><strong>Aventurero (Plata):</strong> 2-4 visitas, descuentos y acceso prioritario</li>
+                        <li><strong>Caballero (Oro):</strong> 5+ visitas, beneficios premium y eventos exclusivos
+                        </li>
+                        <li><strong>Leyenda (Platino):</strong> Pase anual, máximos beneficios y experiencias VIP
+                        </li>
+                    </ul>
+                    <h4
+                        style="color: var(--color-accent); margin-top: var(--spacing-md); margin-bottom: var(--spacing-sm);">
+                        Beneficios y Recompensas
+                    </h4>
+                    <ul>
+                        <li>Descuentos progresivos en entradas y merchandising</li>
+                        <li>Acceso prioritario a espectáculos populares</li>
+                        <li>Invitaciones a eventos exclusivos y estrenos</li>
+                        <li>Experiencias VIP y meet & greet con artistas</li>
+                        <li>Contenido exclusivo y behind-the-scenes</li>
+                    </ul>
+                    <h4
+                        style="color: var(--color-accent); margin-top: var(--spacing-md); margin-bottom: var(--spacing-sm);">
+                        Mecánicas de Gamificación
+                    </h4>
+                    <ul>
+                        <li>Sistema de puntos por visitas y actividades</li>
+                        <li>Badges y logros desbloqueables</li>
+                        <li>Desafíos mensuales con recompensas</li>
+                        <li>Ranking de miembros más activos</li>
+                    </ul>
+                    <p style="margin-top: var(--spacing-md); font-style: italic; color: var(--color-light-gray);">
+                        📝 <em>Contenido detallado de Notion pendiente de integración</em>
+                    </p>
+                </div>
+
+                <!-- Data 360 -->
+                <div class="doc-section" id="doc-data360">
+                    <h3>🔄 Data 360</h3>
+                    <p>
+                        Visión completa de 360 grados del cliente, integrando todos los puntos de contacto
+                        y datos para ofrecer experiencias personalizadas y tomar decisiones informadas.
+                    </p>
+                    <h4
+                        style="color: var(--color-accent); margin-top: var(--spacing-md); margin-bottom: var(--spacing-sm);">
+                        Fuentes de Datos
+                    </h4>
+                    <ul>
+                        <li>Datos de perfil: información demográfica y preferencias</li>
+                        <li>Datos transaccionales: compras, reservas, consumos</li>
+                        <li>Datos de comportamiento: navegación web, uso de app, interacciones</li>
+                        <li>Datos de engagement: emails abiertos, clicks, respuestas a campañas</li>
+                        <li>Datos de satisfacción: encuestas, reseñas, NPS</li>
+                    </ul>
+                    <h4
+                        style="color: var(--color-accent); margin-top: var(--spacing-md); margin-bottom: var(--spacing-sm);">
+                        Segmentación Avanzada
+                    </h4>
+                    <ul>
+                        <li>Segmentación por comportamiento de compra</li>
+                        <li>Segmentación por nivel de engagement</li>
+                        <li>Segmentación por preferencias de contenido</li>
+                        <li>Segmentación predictiva con machine learning</li>
+                    </ul>
+                    <h4
+                        style="color: var(--color-accent); margin-top: var(--spacing-md); margin-bottom: var(--spacing-sm);">
+                        Personalización
+                    </h4>
+                    <ul>
+                        <li>Recomendaciones de espectáculos personalizadas</li>
+                        <li>Ofertas y promociones adaptadas al perfil</li>
+                        <li>Contenido dinámico en web y app</li>
+                        <li>Comunicaciones personalizadas por canal preferido</li>
+                    </ul>
+                    <p style="margin-top: var(--spacing-md); font-style: italic; color: var(--color-light-gray);">
+                        📝 <em>Contenido detallado de Notion pendiente de integración</em>
+                    </p>
+                </div>
             </div>
+        </div>
         </div>
     </section>
 
@@ -494,6 +1029,14 @@
                 if (targetSection) {
                     targetSection.classList.add('active');
                 }
+            });
+        });
+
+        // Submenu toggle functionality
+        document.querySelectorAll('.has-submenu > .doc-menu-link').forEach(link => {
+            link.addEventListener('click', function (e) {
+                const parentLi = this.parentElement;
+                parentLi.classList.toggle('open');
             });
         });
 

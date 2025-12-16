@@ -1,0 +1,910 @@
+Objetivos & estrategia de negocio
+Captación de leads
+Experiencias interactivas en la web
+• Juego“¿Qué personaje medieval eres?” → Al finalizar, se pide el email para enviar
+un resultado personalizado y un incentivo (Comentar con el cliente). → Objetivo:
+captar correos de posibles visitantes mediante entretenimiento temático.
+Generador
+• Landing con formulario “Planifica tu aventura”
+Con el fin de captar leads y que realicen la conversión obteniendo su entrada.
+Los usuarios pueden diseñar su propio itinerario (“quiero ver torneos”, “me interesa la
+taberna”, etc.) → Para obtenerlo, dejan su email y se les envía un itinerario PDF
+personalizado. → Objetivo: captación + segmentación por intereses (familias, parejas,
+grupos escolares…).
+Campañas de referidos
+• “Trae a tu séquito y gana x incentivo (Una camiseta/entrada gratis/ un x
+% adicional en comida” → Cada usuario tiene un enlace o código único desde la web o
+app. → Objetivo: adquisición viral y orgánica.
+• IA integrada con redes sociales
+Fotos medievales según “Personaje histórico” en la App con IA mediante una foto que
+sube el usuario → Para descargarlo, se solicita registro o suscripción al boletín
+→ Una IA genera automáticamente su retrato al estilo personaje histórico.
+→ Se incentiva que lo compartan con un hashtag tipo #PuyDuFouMedieval.
+→ Objetivo: leads + visibilidad en redes + refuerzo de marca y expectación pre-visita
+→ Herramientas: Filtros de Instagram/TikTok integrados con la app y generador IA con
+API (Stable Diffusion / Midjourney / D-ID)
+
+🛡️ Fidelización de clientes existentes
+Objetivo: Mantener y reactivar a los visitantes actuales
+Programa de “Caballeros Leales”
+Sistema de puntos por cada visita, compra o interacción en la app. → Desbloquean
+rangos: “Visitador”, “Explorador de Leyendas”, “Cronista del Tiempo,Guardián de la
+Historia”. → Beneficios: descuentos, acceso prioritario, eventos exclusivos. → Objetivo:
+aumentar recurrencia.
+Notificaciones PUSH en la App
+Enviar alertas según perfil: “Tu torneo favorito comienza en 15 min” o “hay un nuevo
+menú en la taberna”. → Objetivo: engagement en tiempo real.
+Encuestas post-visita con recompensa
+Encuesta breve en la app o email (“Valora tu aventura”) → A cambio, se ofrece un
+descuento en comida o con algún partner. → Objetivo: retención + feedback para
+mejora continua.
+Calendario de eventos especiales
+Recordatorios automáticos (“Festival del Dragón”, “Mercado Medieval”, “Especial
+Navidad”) con acceso prioritario para registrados. → Objetivo: reactivación periódica.
+🧠 Mejora de la experiencia del cliente
+Objetivo: Hacer más fluida, personalizada y memorable su visita
+Geolocalización mediante QR
+Geolocalización en tiempo real con rutas sugeridas (“tiempo de espera corto en la
+justa de caballeros”) mediante pulsera QR
+→ Impactar: Mensajes push en la App determinados por la zona del parque y
+actividades realizadas (ej: “Últimas plazas para el espectáculo “El Último Cantar”). →
+Objetivo: reducir frustración, aumentar satisfacción y mejorar la experiencia física
+
+Recomendador inteligente
+Basado en preferencias previas (“Te gustó el espectáculo de arquería, te
+recomendamos el entrenamiento de espadas”). → Objetivo: personalización dinámica.
+💰 Aumentar el ticket medio
+Experiencias temáticas premium
+Añadir un paquete “Caballero por un día” (foto, vestuario, actividades) con acceso
+prioritario a los espectáculos y sitio preferente en la grada
+→ Incluye fotos temáticas con vestuario medieval y vídeo resumen de la experiencia
+vinculados a pulsera QR y visibles en la App al final del recorrido
+→ Se pueden compartir con el hastag #PuyDuFouMedieval o comprar tanto físicamente
+como de forma digital. → Objetivo: generar ingresos y viralización.
+Restauración: Upselling inteligente basado en aforo y hábitos
+• Recomendaciones personalizadas de tabernas y menús con sugerencias push
+según hora del día, localización y preferencias del formulario (“me interesa
+comida familiar”, “taberna medieval”). Con avisos push del aforo del
+restaurante más cercano como “El Mesón de Carlomagno tiene aforo completo
+hasta las 15:00. Date prisa en reservar o se te escapará el
+• Packs de comida según tipo de audiencia:
+Familias → Menús infantiles
+Grupos → Menú cerrado
+Cumpleañeros → Menú especial cumpleaños
+Experiencia “Cumpleaños Medieval”
+Crear una experiencia diferenciadora y memorable para los visitantes que cumplen
+años, incentivando visitas adicionales al parque, experiencia “premium” y consumo en
+restauración mediante menús especiales y ofertas grupales.
+Menú Especial Cumpleaños “Banquete Real”
+
+• Un menú temático exclusivo que incluye: Entrantes medievales a compartir +
+primero + segundo + postre con vela
+→ Bebida especial “Hidromiel de Aniversario”
+→ Regalo simbólico: corona conmemorativa
+→ Canción “Cumpleaños feliz” por grupo trovador
+• Menú gratuito de cumpleaños para grupos de 6 personas con reserva previa del
+menú.
+→ Impactar: “Si invitas a 6 personas… ¡tu menú cumpleaños es GRATIS!”
+→ Objetivo: Aumentar el ticket medio e incentivar las visitas en grupo → más entradas,
+más consumos.
+• Opción de convertir el banquete en Banquete Premium por 30€ más
+→ Tarta personalizada
+→ Foto impresa con vestuario medieval
+→ Prioridad en una actividad temática
+Coronación “Caballero” por un maestro de armas
+En un punto concreto del parque, el visitante recibe una mini ceremonia consagrándole
+caballero por el maestro de armas con un vídeo ceremonial.
+→ Objetivo: Aumento ticket medio
+Merchandising Medieval (Cross selling)
+Catálogo dinámico en app + recomendaciones basadas en intereses según
+historial de navegación y carrito de compra
+Impactar con correos con productos personalizados según audiencia:
+→ Familias: espadas de madera, escudos, figuras, camisetas para niños, disfraces de
+caballero y princesa...
+→ Amigos: Camisetas adultos, tazas, gorras, túnicas, armas...
+→ Adultos y senior > 60: Bolsos y carteras de marroquinería, botas, sombreros ...
+
+JOURNEYS SEGÚN ESTRATEGIA
+Diseñados en Journey Builder, conectados a Sales Cloud y Data Cloud para
+activaciones automáticas y decisiones en tiempo real.
+🧭 1. JOURNEY DE CAPTACIÓN – “Descubre tu personaje medieval”
+Objetivo: capturar leads de alta calidad y convertirlos en primeras visitas.
+Trigger: registro en formulario web tras realizar juego interactivo.
+Flujo técnico:
+1. Entry Source: API Event (formulario web) → Data Cloud segment “Nuevos leads”.
+2. Email #1 – Bienvenida inmediata:
+a. Contenido dinámico según resultado del juego(Ejemplo rol: caballero,
+arquera, princesa…).
+b. CTA a “Planifica tu aventura”.
+c. Personalization via ****AMPscript + Dynamic Content Blocks.
+3. Wait Activity (48h) → Einstein Engagement Scoring determina siguiente paso.
+a. Si baja probabilidad, enviar contenido emocional (“Descubre los
+secretos de Puy Du Fou”).
+b. alta probabilidad de conversión, enviar Email #2 – Descuento exclusivo
+10%.
+4. Advertising Studio Sync: crea audiencia lookalike para Meta Ads.
+5. Conversion Capture: integración Sales Cloud (Lead → Opportunity).
+6. Exit Criteria: conversión a compra o registro app.
+🧭 2. JOURNEY DE CAPTACIÓN INTERESES Y CONVERSIÓN
+Objetivos:
+• Captar leads cualificados antes de su primera visita o compra.
+• Recoger datos de interés y preferencias (espectáculos, gastronomía, horarios,
+tipo de visitante, etc.) para segmentar futuras campañas.
+• Incrementar la conversión a compra o registro completo en la App / programa de
+fidelización.
+• La aceptación por parte del usuario de recibir comunicaciones comerciales y la
+GDPR
+
+Trigger: Envío de formulario web o in-app form “Planifica tu aventura” alojado en una
+CloudPage de Marketing Cloud o externo en su web
+Flujo técnico:
+1. Usuario llega a la landing “Planifica tu aventura” desde: Canal de entrada:
+a. Una campaña de redes sociales / Google Ads
+b. Banner en la web o en la App con CTA “Diseña tu itinerario”
+c. QR en folletos físicos
+2. Completa el formulario (Smart Capture) con campos como:
+a. Nombre
+b. Email (obligatorio)
+c. Intereses (checkbox: espectáculos, gastronomía, familia, nocturno, etc.)
+d. Fecha tentativa de visita
+e. Consentimiento GDPR
+3. Los datos se insertan en la Data Extension: Web_Lead_Interest_Form_DE
+4. La llegada del nuevo registro en esa DE activa el API Event del Journey, que tiene
+como Entry Source esa Data Extension (API Event: “Form Submit → Nuevo
+Registro Añadido”) que envía Email # Itinerario personalizado, con contenido
+dinámico según:
+Tipo de visitante (@TipoVisitante) (familia, amigos, grupo..)
+Intereses seleccionados (@Intereses)
+5. El email incluye CTA con enlace a descarga PDF generado dinámicamente
+mediante CloudPage + AMPscript + Content Block by Key.
+Ejemplo Landing 1# Formulario Intereses:
+Contenido: Diseña tu propia aventura medieval en Puy du Fou
+Elige tus espectáculos favoritos y recibe tu itinerario personalizado
+Texto principal:
+Bienvenido al Reino de Puy du Fou. Con nuestro planificador interactivo podrás crear tu
+itinerario ideal según tus intereses:
+Torneos de caballeros
+Espectáculos históricos
+
+Tabernas y banquetes
+Aventuras en familia
+Espectáculos nocturnos
+Solo necesitas completar el siguiente formulario y recibirás por correo tu guía
+personalizada en PDF, con horarios y recomendaciones adaptadas a ti. CTA :
+Planifica tu aventura ahora
+Ejemplo Email 1# Itinerario personalizado:
+Asunto:
+%%FirstName%%, aquí tienes tu aventura ideal en Puy du Fou
+Cuerpo del email:
+¡Bienvenida de nuevo, %%FirstName%%! Según tus intereses, hemos preparado una
+experiencia a tu medida:
+(Imágenes y textos adaptados a cada segmento)
+CTA: Descarga tu itinerario personalizado en PDF y vive tu propia historia.
+🏰 3. JOURNEY DE BIENVENIDA – “Tu Primera Aventura en Puy Du Fou”
+Objetivo: acompañar al nuevo cliente antes, durante y después de su primera visita,
+generando confianza, engagement y conversión a fidelización.
+Trigger: compra confirmada o activación de entrada digital.
+Canales: Email + MobilePush + SMS.
+Flujo técnico journey:
+1. Entry Source: Sincronización con Service Cloud Opportunity → Closed/Won
+2. Email #1 Adquisición de entradas:
+a. Contenido: mapa interactivo, horarios, descarga de app.
+b. Contenido dinámico (AMPscript):
+Nombre del visitante: %%FirstName%%
+Fecha del espectáculo: %%EventDate%%
+
+Tipo de entrada: %%TicketType%%
+3. Email #2 Pre-visita:
+Contenido dinámico (AMPscript):
+Nombre del visitante: %%FirstName%%
+Hora llegada: %%ArrivalTime%%
+4. Wait until 1 day before EventDate (Decision Split por canal preferido):
+5. Decision Split por canal preferido:
+a. Si canal preferido = Email → enviar recordatorio por correo.
+b. Si canal preferido = Push → enviar notificación Push.
+c. Si canal preferido = SMS → enviar recordatorio sms.
+6. In-Park Event (Mobile Studio Geofence):
+a. Mensaje push contextual: “El torneo de justas comienza cerca de ti”.
+7. Email Post-visita(T+1):
+a. Encuesta NPS + incentivo opcional (5% descuento próxima visita).
+8. Data Update: resultados encuesta → Contact_Master_DE.
+KPIs:
+• % usuarios que descargan app.
+• % apertura push antes del evento.
+• NPS post-visita.
+Ejemplo Email 1# Adquisición de entrada:
+Asunto: ✉“¡Comienza tu aventura medieval!”
+Cuerpo del email:
+¡Hola, %%FirstName%%!
+Tu viaje en el tiempo ya está reservado para el %%EventDate%%.
+Tu experiencia comienza ahora:
+Descarga la app Puy du Fou y crea tu itinerario personalizado.
+Consulta los mapas interactivos y los horarios de espectáculos.
+Descubre los secretos del espectáculo “El Último Cantar” y mucho más.
+
+CTA: Descargar App CTA: Ver tu entrada digital
+¡Nos vemos pronto en el parque, caballero!
+Bloque dinámico de contenido (segmentado para cada audiencia)
+Ejemplo Email 2# Pre-visita:
+Objetivo: recordar la visita y fomentar la planificación.
+Asunto: “Mañana comienza tu aventura ”
+Cuerpo del email:
+¡Hola, %%FirstName%%!
+Mañana vivirás una experiencia inolvidable. Aquí tienes tus últimos preparativos:
+Itinerario sugerido: Ver itinerario personalizado Horario recomendado de
+llegada: %%ArrivalTime%% Cómo llegar: Ver mapa del parque El tiempo
+mañana: %%WeatherForecast%%
+¡Y recuerda! Si activas las notificaciones en la app, te avisaremos de los próximos
+espectáculos cerca de ti.
+Mensaje Push In-Park (Durante visita) Segmentación: usuarios con App activa y
+permisos de localización.
+“ El espectáculo ‘El Sueño de Toledo’ comienza en 15 minutos cerca de ti. ¡No te lo
+pierdas!”
+Ejemplo Email Post-Visita (T+1 día)
+Objetivo: recoger feedback y fomentar la fidelización.
+Ejemplo de plantilla:
+“Gracias por tu visita, %%FirstName%% ”
+Asunto: ¿Cómo fue tu experiencia en Puy du Fou?
+Cuerpo del email:
+Esperamos que hayas disfrutado viajando en el tiempo con nosotros.
+
+Cuéntanos tu experiencia (¡solo 1 minuto!) y gana un 5% de descuento en tu
+próxima visita.
+Responder encuesta
+Además, pronto lanzaremos el programa “Caballeros Leales” con recompensas
+exclusivas.
+Únete al programa
+Bloque dinámico:
+Si NPS > 8 → email de agradecimiento + recomendación “Invita a un amigo”.
+Si NPS < 6 → alertar equipo de atención al cliente.
+🛡️ 3. JOURNEY DE FIDELIZACIÓN – “Niveles”
+Objetivo: mantener la recurrencia y premiar la vinculación.
+Trigger: registro o puntos acumulados > 100.
+Canales: Email + MobilePush + Loyalty Cloud.
+Flujo técnico:
+1. Entry Source: Loyalty_Points_DE (Data Cloud).
+2. Email #1 (on join): bienvenida al programa, explicación de niveles (Visitador
+principiante, Explorador de leyendas, Cronista del tiempo...).
+3. Wait 30 days → Decision Split (puntos acumulados) <200 → Enviar misión
+(“Completa tu siguiente reto y gana puntos”). ≥200 → Enviar recompensa digital
+(“Acceso exclusivo a evento de Puy Du Fou”).
+4. MobilePush mensual: progreso de puntos + CTA a la app.
+5. Reactivation Branch: si inactivo 90 días → envío de campaña “Puy Du Fou te
+echa de menos”.
+KPIs:
+• Tasa de repetición de visita.
+• Puntos promedio por usuario activo.
+• Ratio de canje de recompensas.
+
+🐉 4. JOURNEY DE REACTIVACIÓN – “Vuelve a Puy Du Fou”
+Objetivo: reenganchar visitantes inactivos o leads sin conversión.
+Trigger: no interacción ni compra >180 días.
+Canales: Email + Advertising Studio + SMS.
+Flujo técnico:
+1. Entry Source: Data Cloud segment “Inactivos +180 días”.
+2. Email #1: storytelling emocional (“Puy Du Fou te recuerda…”) + contenido
+visual.
+3. Wait 3 días → Decision Split (open/click).
+a. Si abre: añadir a audiencia remarketing Ads.
+b. Si no abre: enviar SMS corto con CTA de evento nuevo.
+4. Advertising Studio Audience: remarketing personalizado.
+5. Exit Criteria: nueva compra o descarga app.
+KPIs:
+• Reactivation Rate (% que vuelven a interactuar).
+• CTR + Open Rate reactivación.
+💬 5. JOURNEY DE REFERIDOS: “Reúne a tu Séquito”
+Objetivo: Convertir a los clientes actuales en promotores del parque.
+Canales: Email + App + Social share + Loyalty system.
+Descripción: Campaña viral que recompensa a quienes invitan a amigos o familiares.
+Flujo técnico:
+1. Email/App Message:
+a. “Crea tu séquito: invita a tus amigos y gana recompensas.”
+b. Link único de referido (UTM)
+2. Email (al llegar un referido):
+“Tu compañero acaba de unirse a tu cruzada” + puntos extra.
+3. Email (al alcanzar metas):
+“Tu séquito ha crecido: disfruta tu entrada gratis.”
+
+🎂 JOURNEY DE CUMPLEAÑOS
+Ejemplo de plantilla:
+Asunto: Celebra tu Cumpleaños como un Verdadero Héroe del Reino
+Preheader: ¡Tu cumpleaños se acerca! Reserva tu Banquete Real en Puy du Fou
+Hola, {FirstName},
+En el Reino de Puy du Fou nos hemos enterado de que tu cumpleaños está a punto de
+llegar… y aquí, un día así se celebra como lo harían los héroes medievales.
+Tu experiencia temática exclusiva de cumpleaños:
+• Banquete Real con menú especial cumpleaños
+• Bebida especial “Hidromiel de aniversario” o “Cóctel especial de la casa”
+• Regalo simbólico: corona conmemorativa
+• Canción “Cumpleaños feliz” por grupo trovador
+Y muchas sorpresas más
+Oferta especial
+Además, si invitas a 6 amigos… ¡tu menú cumpleaños es GRATIS!
+¿Quieres una celebración aún más épica?
+Añade el extra de Banquete Premium:
+• Tarta personalizada
+• Foto impresa con vestuario medieval
+• Prioridad en una actividad temática
+Reserva tu experiencia aquí Estamos preparados para celebrar contigo como
+merece la ocasión.
+¡Que los dioses del Reino te acompañen en tu gran día! Puy du Fou – Donde la historia
+cobra vida
+Modelode datos
+
+Arquitectura e Integración
+El ecosistema Salesforce para el proyecto de Puy du Fou España se
+compondrá de cuatro pilares:
+1. Service Cloud Plataforma principal para la gestión de la atención
+al cliente: sugerencias, reclamaciones, dudas e incidencias
+relacionadas con la experiencia en el parque y la app de juego. ◦
+Objeto clave: Case (relacionado con Account/Person Account y,
+cuando aplique, con Visit).
+2. Agentforce (IA de servicio) Se configurará un agente virtual sobre
+Service Cloud que: ◦ Recibe y entiende las consultas del cliente. ◦
+Propone y registra soluciones en los casos. ◦ Escala
+automáticamente a un agente humano solo cuando: ▪ El cliente
+indica explícitamente que no se ha resuelto, o ▪ Se detecta una
+determinada prioridad/impacto (según reglas de negocio).
+3. Marketing Cloud Recibirá datos por dos vías: ◦ Vía Service Cloud:
+sincronización de Contact/Person Account para disponer de la
+base de contactos que interaccionan con soporte. ◦ Vía API con la
+BBDD de Puy du Fou: importación de datos operacionales (visitas,
+compras, shows vistos).
+Marketing Cloud se utilizará para: ◦ Enviar notificaciones push (pre-visita,
+visita y post-visita). ◦ Enviar comunicaciones y notificaciones vinculadas al
+
+juego gamificado de la app (sellos, niveles, logros, pendientes por
+completar).
+4. Data Cloud Punto central de unificación de datos (Customer 360). ◦
+Recibe datos tanto desde Service Cloud (casos, contactos) como
+desde Marketing Cloud / BBDD externa (visitas, juego, compras). ◦
+Se encarga de construir el Unique Contact (perfil unificado)
+combinando: ▪ Identidad CRM (Person Account). ▪ Datos de visita y
+juego de la app. ▪ Interacciones de servicio y marketing. ◦ Sobre este
+modelo unificado se crean segmentaciones dinámicas (familias
+recurrentes, jugadores muy activos, visitantes con incidencias
+recientes, etc.) que se envían de nuevo a Marketing Cloud para
+activar journeys y campañas personalizadas.
+FUENTES Y UNIFICACIÓN
+La experiencia del visitante en Puy du Fou genera información en múltiples
+puntos de contacto, tanto digitales como presenciales, que deben
+consolidarse en un único modelo de datos para habilitar segmentación
+avanzada, personalización en tiempo real y activaciones omnicanal.
+Salesforce Data Cloud actúa como el cerebro central donde convergen,
+
+se limpian y se unifican todas estas fuentes, permitiendo construir un
+Golden Record del Visitante.
+A continuación se detallan las fuentes de datos definidas para el proyecto
+y el proceso de unificación en Data Cloud.
+1. Fuentes de datos digitales (Online)
+1.1 Web y Portal de Reservas
+Incluyen todas las interacciones del visitante antes de su visita:
+• Creación de cuenta y autenticación (email, móvil).
+• Selección de fechas de visita.
+• Carritos de compra y reservas no finalizadas.
+• Confirmaciones de compra (entradas, restauración, upgrades).
+• Preferencias del visitante.
+Datos capturados:
+• Identificadores del usuario (email, teléfono).
+• Productos seleccionados.
+• Fecha prevista de visita.
+• Tipo de entrada (Puy du Fou / Sueño de Toledo / experiencia
+premium).
+• Historial de navegación y carritos abandonados (eventos).
+1.2 Aplicación móvil del visitante
+La aplicación centraliza la experiencia previa y durante la visita:
+• Registro y login.
+• Acceso al QR de entrada.
+• Escaneo de códigos dentro del parque.
+• Interacciones de gamificación (retos, puntos, niveles).
+
+Datos capturados:
+• Identificador único de usuario en la app.
+• Eventos de interacción (show visto, QR escaneado).
+• Progreso del programa de fidelización.
+• Permisos de notificaciones push.
+2. Fuentes de datos presenciales (On-Park)
+2.1 Pulseras NFC / QR físicos
+Las pulseras o códigos se utilizan como llaves universales dentro del
+parque:
+• Validación de acceso.
+• Identificación en zonas temáticas.
+• Participación en actividades interactivas.
+• Asociación de visitantes a grupos (“líder” y “mochila”).
+Datos capturados:
+• ID de pulsera o QR.
+• Timestamp de escaneo.
+• Ubicación / show asociado.
+• Usuario o grupo al que pertenece.
+2.2 Red WiFi del parque
+El visitante puede conectarse al WiFi con un formulario sencillo o usando
+el login de la app.
+Datos capturados:
+• Dispositivo + email/móvil asociado.
+• Momento de conexión.
+• Tiempo de permanencia.
+
+• Consentimientos explícitos para comunicaciones.
+2.3 TPV – Restauración y tiendas
+Las compras dentro del parque aportan datos clave sobre gasto y
+preferencias.
+Datos capturados:
+• Ticket de compra.
+• Productos adquiridos.
+• Importe total.
+• Medio de pago.
+• Asociación al visitante (si presenta QR o pulsera).
+3. Interacciones de Servicio
+3.1 Service Cloud
+Todas las incidencias, solicitudes y reclamaciones del visitante se
+gestionan como Cases.
+Datos capturados:
+• Tipo de incidencia y severidad.
+• Canal de entrada (email, app, punto físico).
+• Resolución aplicada (compensación, reembolso, upgrade).
+• Nivel de satisfacción post-incidencia.
+Esta información es esencial para segmentación avanzada (por ejemplo:
+“superfan insatisfecho”, “incidencia grave reciente”).
+
+🔄 4. Proceso de Unificación en Salesforce Data Cloud
+Salesforce Data Cloud recoge todos los datos anteriores mediante
+conectores, APIs y flujos ETL hacia sus Data Streams. El proceso de
+unificación se compone de cuatro etapas principales:
+4.1 Ingesta y normalización de datos
+Cada fuente alimenta a Data Cloud mediante uno o más Data Streams
+donde se aplican:
+• Limpieza básica.
+• Normalización de formatos (móvil, email, fecha).
+• Estandarización de campos (nombres, identificadores).
+Esto garantiza que todas las fuentes compartan un lenguaje común.
+4.2 Identity Resolution – Unificación de identidades
+La característica clave del proyecto es la unificación de múltiples
+identificadores que el mismo visitante puede utilizar durante su journey:
+• Email personal
+• Número de teléfono
+• ID de usuario de la app
+• ID de pulsera RFID
+• QR de entrada
+• Dispositivo conectado a WiFi
+• Contacto/Account en CRM
+• Histórico de entradas
+Data Cloud utiliza reglas de coincidencia (match rules) y reglas de
+resolución (resolution rules) para determinar cuándo varios registros
+pertenecen a la misma persona.
+
+Ejemplos de coincidencia:
+• Mismo email en app y en portal web.
+• Pulsera escaneada asociada al mismo teléfono registrado en WiFi.
+• Case en Service Cloud vinculado al email usado para comprar
+entradas.
+4.3 Golden Record – Perfil 360 del visitante
+Una vez unificadas las identidades, Data Cloud genera un perfil único
+consolidado que contiene:
+Atributos demográficos:
+• Email, teléfono.
+• Idioma preferente.
+• Localización general.
+Atributos de comportamiento:
+• Nº total de visitas.
+• Shows vistos + puntos obtenidos.
+• Interacciones con QRs / pulseras.
+• Compras dentro del parque.
+Atributos de fidelización:
+• Nivel (Visitador, Explorador, Cronista, Guardián).
+• Puntos acumulados.
+• Últimas acciones en la app.
+Atributos de satisfacción:
+• Incidencias (severidad).
+• Soluciones recibidas.
+• Riesgo de abandono.
+
+Este Golden Record es el que se distribuye a Service Cloud y Marketing
+Cloud para habilitar experiencia personalizada.
+4.4 Publicación y activación del dato
+Una vez consolidado el perfil:
+Hacia Service Cloud
+• Los agentes de atención visualizan el 360 del visitante:
+historial, nivel, puntos, incidencias previas, gasto, preferencias.
+Hacia Marketing Cloud
+• Se crean audiencias dinámicas para journeys:
+o familias primerizas
+o recurrentes
+o mochilas
+o superfans
+o clientes insatisfechos
+o clientes en riesgo de abandono
+o visitantes próximos a subir de nivel
+• Activaciones en tiempo real como:
+o carrito abandonado
+o pre-visita
+o gamificación
+o post-visita
+BUYER PERSONA
+
+
+
+Competidores
+Puy du Fou España combina elementos que sus competidores tienen, pero ninguno
+ofrece el paquete completo:
+
+🟪 Matriz Comparativa de Experiencias Temáticas
+Puy du
+Elemento Disney PortAventura Warner Alhambra
+Fou
+Historia y cultura ✘ ✘ ✘ ✔ ✔
+Espectáculos ✘
+✔ ✘ ✘ ✔
+inmersivos 360° (acción)
+Emoción épica y ✔ ✔
+✘ ✘ ✔
+narrativa adulta (fantasía) (historia)
+Tecnología AR / NFC
+✔ ✔ ✔ ✘ ✔
+inmersiva
+Coherencia narrativa
+✔ ✘ ✘ ✔ ✔
+completa
+Experiencia premium
+✔ ✘ ✘ ✔ ✔
+sin descuentos
+Ningún competidor ofrece historia + emoción + espectáculo + tecnología +
+autenticidad cultural como Puy du Fou.
+Análisis
+
+Roadmaps Journeys de clientes
+Journey Amigo “líder” del grupo
+Puedes ver en detalle los customer Journeys en este link:
+
+Journey amigo Mochila
+Carrito Abandonado
+1. Introducción
+El módulo Einstein Web Recommendations de Marketing Cloud permite identificar
+cuándo un usuario abandona productos en su carrito y automatizar campañas
+personalizadas para recuperarlo.
+
+Para habilitar esta funcionalidad es necesario ****instrumentar la web, configurar el
+catálogo de productos e integrar los eventos de comportamiento con Marketing Cloud.
+El objetivo final es activar journeys de recuperación con contenido dinámico generado
+automáticamente por Einstein.
+2. Requisitos Previos
+Antes de configurar el carrito abandonado, se deben cumplir los siguientes elementos:
+✔ 1. Activar Einstein Recommendations
+Dentro del menú principal de Marketing Cloud, habilitar:
+Einstein Email Recommendations
+Einstein Web Recommendations
+Einstein Catalog
+✔ 2. Disponer de un catálogo de productos actualizado
+Puede cargarse de tres formas:
+Upload manual del Product Feed en Einstein Catalog.
+Generación automática desde el CMS/eCommerce mediante CSV/JSON.
+Sincronización vía API desde sistemas externos.
+✔ 3. Insertar los scripts de seguimiento web
+En el sitio web (WordPress, PrestaShop, Shopify o custom), es imprescindible incluir el
+Collect Tracking Code para poder enviar los eventos a Einstein.
+3. Configuración del Carrito Abandonado en Einstein Web Recommendations
+A continuación, se resumen los pasos esenciales para activar el seguimiento del
+carrito, construir la lógica de abandono y habilitarlo en Marketing Cloud.
+3.1. Inserción del Script de Tracking (Collect Tracking Code)
+
+Se debe colocar el script principal de Einstein Web Recommendations en el <head> del
+sitio web:
+Este script permite capturar la navegación del usuario y enviar los eventos clave.
+3.2. Implementación de Eventos de Producto y Carrito
+Einstein necesita recibir eventos dinámicos que indiquen qué producto está viendo el
+usuario y qué añade o elimina del carrito.
+Ejemplos:
+Evento de vista de producto
+Todos los valores son dinámicos y se rellenan automáticamente mediante variables del
+CMS/ecommerce.
+No se codifican productos fijos, sino que se insertan desde la plantilla.
+
+3.3. Configuración del “Cart Abandonment Logic” dentro de Web
+Recommendations
+Dentro de Einstein → Web Recommendations, se debe habilitar la lógica del carrito:
+✔ Activar “Cart Logic”
+Registra automáticamente:
+• productos añadidos al carrito
+• productos eliminados
+• tiempo desde la última interacción
+✔ Ajustar la ventana de abandono
+Ejemplo recomendado:
+• Considerar “carrito abandonado” cuando han pasado 30–60 minutos desde la
+última actividad.
+✔ Validación en tiempo real
+Einstein creará un evento interno denominado Cart Abandonment Event, que puede
+utilizarse como fuente de entrada en un Journey.
+3.4. Validación de la Población y Eventos
+Dentro de Email Recommendations, se validan:
+• Eventos recibidos (viewProduct, addToCart)
+• Carritos detectados
+• Reglas de recomendación activas
+• Catálogo correctamente sincronizado
+Cuando el sistema comienza a recibir actividad, el panel mostrará usuarios activos.
+4. Uso del Carrito Abandonado en
+Journey Builder
+Una vez Einstein está enviando el evento de abandono, el siguiente paso es activarlo
+dentro de un journey.
+
+✔ Fuente de Entrada: “Einstein Activity”
+En Journey Builder, seleccionar como Entry Source:
+• Einstein Event → Cart Abandonment
+Esto permite que cada usuario que abandona un carrito se ingrese automáticamente al
+Journey.
+✔ Contenido dinámico
+En Email Studio se insertan:
+• Bloques de Cart Items (productos exactos abandonados)
+• Bloques de Web Recommendations (productos similares o complementarios)
+✔ Activación del Journey
+El journey típico incluye:
+• recordatorio suave (1 hora)
+• recordatorio fuerte (24 horas)
+• recomendación dinámica avanzada (48 horas)
+Journey Pre-Visita
+Journey Amigo “líder” del grupo
+
+Journey amigo Mochila
+
+Journey de visita
+Journey de la visita Físico
+Journey Entrada
+Journey espectáculos progreaso en la app
+
+1er espectáculo
+2do espectáculo
+Journey Salida
+Gamificación Totems escondidos
+Wifi en zona de restauración
+Journey no participantes
+Journey de visita
+
+
+
+
+
+
+
+
+
+Journey Entrada
+Journey espectáculos progreaso en la app
+J1er espectáculo
+2do espectáculo
+
+Journey Salida
+Gamificación Totems escondidos
+Wifi en zona de restauración
+Journey no participantes
+Journey Post-visita
+
+1. Audiencias para comunicaciones post
+visita
+Hay tres tipos de comunicaciones post visita que segmentaremos, Para el grupo de
+amigos, el “amigo líder”, el “amigo mochila” y el “futuro líder”
+amigo líder: es el amigo que ha comprado las entradas para la experiencia y por lo
+tanto ha demostrado iniciativa de cara a venir al parque, recibirá un mail resumiendo
+su experiencia y detallando las aventuras que ha experimentado y cuales le faltan y
+puntos de experiencia acumulados en esta visita y cuántos le faltan para subir de nivel
+para incentivarle a volver, además de la encuesta de satisfacción.
+Futuro líder: es uno de los amigos que no compró la visita, pero una vez en el parque,
+descargó la app, interactuó con las experiencias e incluso adquirió la pulsera QR o el
+llavero en vez de solo usar el QR de la app. Esta persona tiene “madera de líder”, las
+comunicaciones que recibirá serán mas efusivas, recordándole lo que se ha dejado por
+ver y las ventajas de volver al parque y animando a que traiga a sus amigos para
+competir con ellos , puede que vuelva con el mismo grupo, pero esta vez haciéndose el
+cargo de la compra de las entradas o incluso con otro grupo nuevo de amigos
+amigo mochila: es el amigo que ha ido puede que por acompañar al resto y no
+quedarse solo en casa, digamos que ha ido un poco por ir, puede verse en que o no se
+ha descargado la app o se la ha descargado pero su participación en las experiencias
+ha sido mínima, el impacto sobre esta persona va a ser mínimo, recibirá el mail de post
+visita estándar detallando su experiencia y el impacto será mínimo, pues tiene mas
+posibilidades de volver si un amigo líder vuelve a traerle.
+2. Flujo de envío de comunicación tras la visita
+Tras la visita al parque, se le enviará una comunicación vía push o mail según el usuario
+lo tenga configurado, para indicarle que espectáculos no ha visto y cuantos puntos ha
+ganado por los que si, en el mail se le indicará dónde descargar las fotos que hayan
+hecho en los puntos de fotografía.
+El contenido del mail será dinámico, no solo para poner el nombre de la persona sino
+su rango, el texto explicando el rango en el que se encuentra y mandarle la encuesta de
+satisfacción.
+
+
+
+Loyalty Management Program
+1. Arquitectura del sistema
+2. Reglas de puntuación del programa, niveles y lógica de progresión
+3. Flujo de datos y automatización del sistema de puntos
+4. Pantallas de la App
+5. Journey incluidos en el Loyalty Program
+Resumen conceptual para documentación
+
+La aplicación oficial de Puy du Fou integra un sistema de Loyalty Management
+diseñado para acompañar al visitante a lo largo de su experiencia dentro del parque.
+Esta mecánica convierte la visita en una aventura gamificada donde el usuario
+desbloquea insignias, progresa a través de distintos niveles ****y obtiene ventajas y
+contenido exclusivo.
+El sistema está compuesto por cuatro niveles principales:
+1. Visitador Principiante
+2. Explorador de Leyendas
+3. Cronista del Tiempo
+4. Guardián de la Historia
+Cada nivel representa un grado de descubrimiento del parque y se obtiene al completar
+misiones y actividades dentro de la experiencia Puy du Fou.
+• Los niveles están diseñados para premiar progresivamente el compromiso del
+visitante.
+• Los primeros niveles se alcanzan con pocas interacciones.
+• El nivel final garantiza una experiencia completa dentro del parque.
+• “El Sueño de Toledo” actúa como requisito narrativo y como filtro de calidad
+para el nivel máximo.
+Cada nivel representa un grado de descubrimiento del parque y se obtiene al completar
+misiones y actividades dentro de la experiencia Puy du Fou.
+• Los niveles están diseñados para premiar progresivamente el compromiso del
+visitante.
+• Los primeros niveles se alcanzan con pocas interacciones.
+• El nivel final garantiza una experiencia completa dentro del parque.
+• “El Sueño de Toledo” actúa como requisito narrativo y como filtro de calidad
+para el nivel máximo.
+
+1. Arquitectura del sistema
+1.1. Canales que alimentan el Loyalty
+2. Reglas de Puntuación del Programa, Niveles y Lógica
+de Progresión
+
+2.1 Niveles del Programa
+🏆 Tabla oficial de niveles, insignias y umbrales
+Lógica de progresión hacia “Guardián de la Historia”
+Para alcanzar el nivel 4- Guardián de la Historia:
+• Debe llegar a ≥ 100 puntos
+• Debe haber visto El Sueño de Toledo (30 pts).
+• Debe haber visto mínimo 7 espectáculos en total.
+• Puede llegar a 100 puntos sin necesidad de ver todos los shows pero con
+interacciones tipo compartir en RRSS
+Esto asegura que el usuario:
+• Vivió casi todas las propuestas del parque.
+• Desbloqueó la narrativa completa.
+• Cumple el criterio de “experiencia premium total”
+2.2 Tabla Maestra de Puntos por Actividad
+Esta tabla amplía la que tú ya tenías, respetando formato y estilo, y añadiendo todas
+las nuevas reglas del sistema.
+1. Puntos por Shows
+
+• Show diurnos (7 shows): valor medio.
+• Show nocturno “El Sueño de Toledo”: valor alto (porque es obligatorio y más
+largo).
+2. Puntos por compras online
+
+3.Interacciones en la App
+2.3. Beneficios progresivos
+Nivel 1 — Principiante
+• Cupón 5% en tienda (válido 48h → urgencia)
+• Acceso a itinerarios recomendados
+Nivel 2 — Explorador de Leyendas
+• Foto digital gratuita de un espectáculo
+• Prioridad en colas virtuales no premium
+• Menú medieval “Explorador” con precio reducido
+Nivel 3 — Cronista del Tiempo
+• Descuento del 10% en restauración
+• Preferencia en reservas de espectáculos
+• Merchandising exclusivo
+Nivel 4 — Guardián de la Historia
+• Acceso prioritario al parque
+• Regalo de bienvenida : Postal digital personalizada con su nombre y logros
+(“Crónicas de [Nombre del visitante]”).
+• Butacas premium nocturnas (limitadas)
+• Invitación a 1 evento anual cerrado
+
+3. Flujo de datos y automatización del sistema de
+puntos
+3.1. Cómo se adapta este flujo al contexto de Puy du Fou
+Cada interacción genera un evento que llega al backend del parque:
+1. La pulsera QR/NFC actúa como “identificador físico + evento”: cada entrada a
+show genera un evento fidelidad desde la App
+2. Las compras online o en app (entradas, merch, packs, fotos) se integran vía
+API/Commerce → Loyalty Event
+3. Las actividades digitales (encuesta en la App, referidos) generan eventos en
+Loyalty Management→ Loyalty Event
+Gracias a esto, cada interacción, online o física vinculada a la pulsera, queda
+rastreable y acumulable dentro de Loyalty Management, con integridad de datos,
+trazabilidad y capacidad de redención.
+
+
+
+4. Pantallas de la App
+En esta sección se presentan las pantallas principales del prototipo de la aplicación
+móvil de Puy du Fou España.
+El diseño mantiene la identidad visual del parque: tonos burdeos y dorados, tipografía
+elegante y una estética épica que refuerza la narrativa de aventura y descubrimiento
+del visitante.
+1. Pantalla de Onboarding – “Embárcate en una Aventura”
+La experiencia del visitante comienza con una bienvenida inspiradora.
+Esta pantalla invita al usuario a embarcarse en una aventura donde podrá ganar
+insignias, cumplir misiones y completar su colección mientras descubre el parque.
+Esta pantalla introduce al usuario en la dinámica del sistema de lealtad. Se explican los
+tres pilares de funcionamiento:
+1. Gana Insignias:
+
+El visitante desbloquea insignias conforme completa misiones dentro del parque
+(asistir a espectáculos, visitar zonas, descubrir secretos, etc.).
+2. Cumple Misiones:
+Estas misiones pueden ser de exploración, aprendizaje o participación. Cada una tiene
+un valor en puntos o progreso hacia una insignia.
+3. Completa Tu Colección:
+Todas las insignias conseguidas se registran en el perfil del usuario, mostrando su nivel
+dentro del programa.
+El botón “Continuar” lleva al usuario a su área privada para comenzar la aventura.
+2. Pantalla “Mi Cuenta” – Área Privada del Usuario
+Esta sección centraliza toda la información asociada al visitante, incluyendo su
+progreso en el programa de lealtad.
+Elementos principales:
+▸ Entrada – Código QR
+
+Permite que el usuario acceda al parque escaneando directamente desde la App.
+Esta función conecta la identidad digital del visitante con sus actividades dentro del
+recinto, habilitando el seguimiento de misiones completadas.
+▸ Mis Favoritos
+El usuario guarda espectáculos o actividades de su interés.
+Aunque no afecta directamente al sistema de puntos, mejora la personalización y
+permite sugerir misiones relacionadas.
+▸ Mis Preferencias
+Configuración del usuario para optimizar su experiencia.
+Puede incluir preferencias de idioma, accesibilidad o intereses temáticos.
+3. Pantalla de Insignias – “Insignias Desbloqueadas”
+En esta pantalla, el usuario visualiza el progreso dentro del sistema de lealtad.
+Componentes principales:
+
+▸ Contador de Progreso
+Ejemplo: “3 / 4 Insignias Desbloqueadas”.
+Permite ver cuántos logros se han obtenido y cuántos faltan para subir de nivel.
+▸ Listado de Insignias
+Estas insignias corresponden a acciones realizadas dentro del parque y son las que
+determinan la progresión entre niveles.
+4. Pantalla Detallada de Nivel
+Esta pantalla cambia dinámicamente en función del nivel actual del usuario.
+Secciones que incluye:
+▸ Insignia Principal
+Un emblema visual que representa el nivel alcanzado.
+▸ Título del Nivel
+▸ Mensaje Narrativo
+Cada nivel muestra un texto introductorio, alineado con el estilo épico de Puy du Fou.
+Ej.: “El viaje ha comenzado. ¡Descubre más experiencias inolvidables!”
+▸ Condición para Desbloquear el Nivel
+
+Muestra los requisitos necesarios para obtener puntuación y ascender de nivel, junto
+con una barra de progreso que indica el avance hacia el desbloqueo del siguiente nivel.
+Ej.: “Asiste a 4 espectáculos”, “Comparte con un amigo y haz que se registre” etc
+▸ Botón “Ver Misiones”
+Permite acceder a la lista de actividades necesarias para avanzar.
+5. Notificaciones
+1. Notificación de Ascenso de Nivel
+Esta pantalla muestra la notificación push que recibe el usuario cuando completa los
+requisitos para avanzar de nivel dentro del sistema de lealtad de Puy du Fou.
+La notificación aparece en la pantalla de bloqueo del dispositivo y cumple dos
+funciones principales:
+1. Informar del progreso
+El mensaje confirma que el usuario ha alcanzado un nuevo nivel —en este caso,
+Cronista del Tiempo—, reforzando la sensación de logro dentro de su aventura en el
+parque.
+2. Motivar la continuidad
+
+La comunicación instantánea y celebratoria (“¡Felicidades!”) potencia la gamificación
+del sistema y anima al usuario a continuar descubriendo misiones para avanzar al
+siguiente nivel.
+El uso de un icono temático ( ) refuerza la identidad visual del programa de lealtad y
+crea una conexión directa con la narrativa del nivel desbloqueado.
+2. Notificación de Preparación para la Visita
+Esta notificación push aparece en el móvil del usuario cuando falta menos de 24 horas
+para su visita al parque. Su objetivo es acompañar al visitante antes de su llegada y
+asegurar que pueda organizar correctamente su experiencia.
+El mensaje cumple tres funciones principales:
+1. Recordatorio oportuno
+El título ****“En menos de 24h comienza su visita” informa al usuario de la proximidad
+de su entrada, reduciendo olvidos o confusiones sobre la fecha reservada.
+2. Activación del usuario
+El encabezado “¿Estás preparado?” busca generar emoción y anticipación, reforzando
+la narrativa de aventura del parque.
+3. Guía para la planificación
+La frase “Organiza tu visita en la App” invita al usuario a entrar en la aplicación para
+revisar horarios, favoritos, misiones o cualquier preparación necesaria, mejorando su
+experiencia desde antes de llegar al recinto.
+
+
+

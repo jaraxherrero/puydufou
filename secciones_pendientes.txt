@@ -1,0 +1,255 @@
+# SECCIONES PENDIENTES PARA INTEGRAR
+
+## JOURNEYS - CARRITO ABANDONADO
+<div class="doc-section" id="doc-journey-carrito">
+    <h3>🛒 Journey: Carrito Abandonado</h3>
+    <p class="text-justify">
+        El módulo Einstein Web Recommendations de Marketing Cloud permite identificar cuándo un usuario abandona productos en su carrito y automatizar campañas personalizadas para recuperarlo.
+    </p>
+
+    <h4 style="color: var(--color-accent); margin-top: var(--spacing-md); margin-bottom: var(--spacing-sm);">
+        Requisitos Previos
+    </h4>
+    <div class="content-block">
+        <ul>
+            <li>✔ Activar Einstein Recommendations (Email + Web + Catalog)</li>
+            <li>✔ Disponer de catálogo de productos actualizado</li>
+            <li>✔ Insertar scripts de seguimiento web (Collect Tracking Code)</li>
+        </ul>
+    </div>
+
+    <h4 style="color: var(--color-accent); margin-top: var(--spacing-md); margin-bottom: var(--spacing-sm);">
+        Configuración del Carrito Abandonado
+    </h4>
+    <div class="content-block">
+        <h4>1. Script de Tracking</h4>
+        <p class="text-justify">
+            Se coloca el script principal de Einstein Web Recommendations en el &lt;head&gt; del sitio web para capturar la navegación del usuario y enviar eventos clave.
+        </p>
+    </div>
+
+    <div class="content-block">
+        <h4>2. Eventos de Producto y Carrito</h4>
+        <ul>
+            <li><strong>Evento de vista de producto:</strong> Captura cuando el usuario ve un producto</li>
+            <li><strong>Evento addToCart:</strong> Registra productos añadidos al carrito</li>
+            <li><strong>Evento removeFromCart:</strong> Registra productos eliminados</li>
+        </ul>
+        <p class="text-justify">
+            <em>Todos los valores son dinámicos y se rellenan automáticamente mediante variables del CMS/ecommerce.</em>
+        </p>
+    </div>
+
+    <div class="content-block">
+        <h4>3. Cart Abandonment Logic</h4>
+        <ul>
+            <li>✔ Activar "Cart Logic" en Einstein → Web Recommendations</li>
+            <li>✔ Ajustar ventana de abandono: 30-60 minutos desde última actividad</li>
+            <li>✔ Einstein crea evento "Cart Abandonment Event"</li>
+        </ul>
+    </div>
+
+    <h4 style="color: var(--color-accent); margin-top: var(--spacing-md); margin-bottom: var(--spacing-sm);">
+        Journey Builder - Activación
+    </h4>
+    <div class="content-block">
+        <ul>
+            <li><strong>Fuente de Entrada:</strong> Einstein Event → Cart Abandonment</li>
+            <li><strong>Contenido dinámico:</strong> Bloques de Cart Items + Web Recommendations</li>
+            <li><strong>Flujo típico:</strong>
+                <ul>
+                    <li>Recordatorio suave (1 hora)</li>
+                    <li>Recordatorio fuerte (24 horas)</li>
+                    <li>Recomendación dinámica avanzada (48 horas)</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</div>
+
+## JOURNEYS - PRE-VISITA
+<div class="doc-section" id="doc-journey-previsita">
+    <h3>📅 Journey: Pre-Visita</h3>
+    <p class="text-justify">
+        Journey diseñado para preparar al visitante antes de su llegada al parque, maximizando la anticipación y asegurando una experiencia fluida desde el primer momento.
+    </p>
+
+    <h4 style="color: var(--color-accent); margin-top: var(--spacing-md); margin-bottom: var(--spacing-sm);">
+        Objetivos del Journey
+    </h4>
+    <ul>
+        <li>Aumentar la anticipación y emoción pre-visita</li>
+        <li>Facilitar la planificación del itinerario</li>
+        <li>Promover la descarga de la app móvil</li>
+        <li>Incrementar el ticket medio con upselling de experiencias premium</li>
+    </ul>
+
+    <h4 style="color: var(--color-accent); margin-top: var(--spacing-md); margin-bottom: var(--spacing-sm);">
+        Flujo del Journey
+    </h4>
+
+    <div class="content-block">
+        <h4>Email #1: Confirmación de Compra (T+0)</h4>
+        <p class="text-justify">
+            <strong>Asunto:</strong> "¡Comienza tu aventura medieval!"
+        </p>
+        <ul>
+            <li>Confirmación de reserva con fecha y tipo de entrada</li>
+            <li>CTA: Descargar App Puy du Fou</li>
+            <li>CTA: Ver entrada digital</li>
+            <li>Mapas interactivos y horarios de espectáculos</li>
+            <li>Contenido dinámico según tipo de audiencia (familia, amigos, pareja)</li>
+        </ul>
+    </div>
+
+    <div class="content-block">
+        <h4>Email #2: Preparación (T-3 días)</h4>
+        <p class="text-justify">
+            <strong>Asunto:</strong> "Tu aventura está cerca, %%FirstName%%"
+        </p>
+        <ul>
+            <li>Itinerario sugerido personalizado</li>
+            <li>Recomendaciones de espectáculos según perfil</li>
+            <li>Información meteorológica</li>
+            <li>Ofertas de upgrades (paquete premium, restauración)</li>
+        </ul>
+    </div>
+
+    <div class="content-block">
+        <h4>Recordatorio Final (T-1 día)</h4>
+        <p class="text-justify">
+            <strong>Canal:</strong> Email, Push o SMS según preferencia del usuario
+        </p>
+        <ul>
+            <li>Recordatorio de la visita mañana</li>
+            <li>Horario recomendado de llegada</li>
+            <li>Cómo llegar + mapa del parque</li>
+            <li>Activación de notificaciones en la app</li>
+        </ul>
+    </div>
+</div>
+
+## JOURNEYS - DURANTE LA VISITA
+<div class="doc-section" id="doc-journey-visita">
+    <h3>🎭 Journey: Durante la Visita</h3>
+    <p class="text-justify">
+        Journey activado en tiempo real durante la visita física al parque, utilizando geolocalización y pulseras NFC/QR para personalizar la experiencia.
+    </p>
+
+    <h4 style="color: var(--color-accent); margin-top: var(--spacing-md); margin-bottom: var(--spacing-sm);">
+        Activación por Geofencing
+    </h4>
+    <div class="content-block">
+        <ul>
+            <li><strong>Entrada al Parque:</strong> "¡Bienvenido a Puy du Fou! Tu aventura comienza ahora"</li>
+            <li><strong>Proximidad a Espectáculo:</strong> "El torneo de justas comienza en 15 minutos cerca de ti"</li>
+            <li><strong>Zona de Restauración:</strong> "El Mesón de Carlomagno tiene aforo disponible. ¡Reserva ahora!"</li>
+            <li><strong>Gamificación:</strong> "¡Has descubierto un tótem escondido! +10 puntos"</li>
+        </ul>
+    </div>
+
+    <h4 style="color: var(--color-accent); margin-top: var(--spacing-md); margin-bottom: var(--spacing-sm);">
+        Progreso en la App
+    </h4>
+    <div class="content-block">
+        <h4>Tras cada espectáculo:</h4>
+        <ul>
+            <li>Notificación de puntos ganados</li>
+            <li>Actualización de progreso hacia siguiente nivel</li>
+            <li>Recomendación del próximo espectáculo</li>
+            <li>Opción de compartir en redes sociales</li>
+        </ul>
+    </div>
+
+    <div class="content-block">
+        <h4>Journey para No Participantes</h4>
+        <p class="text-justify">
+            Para visitantes que no han descargado la app o no participan activamente:
+        </p>
+        <ul>
+            <li>Recordatorio suave vía WiFi portal: "Descarga la app y desbloquea contenido exclusivo"</li>
+            <li>Incentivo: "Gana 20 puntos al registrarte ahora"</li>
+            <li>Sin ser intrusivo, respetando su experiencia</li>
+        </ul>
+    </div>
+
+    <p style="margin-top: var(--spacing-md); font-style: italic; color: var(--color-light-gray);">
+        💡 <em>Nota: Las imágenes del journey físico se mostrarían aquí en formato vertical (una debajo de otra)</em>
+    </p>
+</div>
+
+## JOURNEYS - POST-VISITA
+<div class="doc-section" id="doc-journey-postvisita">
+    <h3>📧 Journey: Post-Visita</h3>
+    <p class="text-justify">
+        Journey activado tras la visita para recoger feedback, fomentar la fidelización y promover futuras visitas.
+    </p>
+
+    <h4 style="color: var(--color-accent); margin-top: var(--spacing-md); margin-bottom: var(--spacing-sm);">
+        Audiencias Segmentadas
+    </h4>
+
+    <div class="content-block">
+        <h4>Amigo Líder</h4>
+        <p class="text-justify">
+            Usuario que compró las entradas para el grupo. Demostró iniciativa.
+        </p>
+        <ul>
+            <li>Email resumiendo su experiencia completa</li>
+            <li>Aventuras experimentadas vs. pendientes</li>
+            <li>Puntos acumulados y progreso hacia siguiente nivel</li>
+            <li>Encuesta de satisfacción</li>
+            <li>Incentivo para próxima visita: "Trae a tu séquito de nuevo y gana..."</li>
+        </ul>
+    </div>
+
+    <div class="content-block">
+        <h4>Futuro Líder</h4>
+        <p class="text-justify">
+            Amigo que no compró pero descargó la app, interactuó activamente e incluso adquirió pulsera QR. Tiene "madera de líder".
+        </p>
+        <ul>
+            <li>Comunicaciones más efusivas y motivadoras</li>
+            <li>Recordatorio de lo que se dejó por ver</li>
+            <li>Ventajas de volver y traer a sus propios amigos</li>
+            <li>Competir con su grupo anterior</li>
+            <li>Incentivo especial: "Organiza tu propia aventura y recibe..."</li>
+        </ul>
+    </div>
+
+    <div class="content-block">
+        <h4>Amigo Mochila</h4>
+        <p class="text-justify">
+            Fue por acompañar. No descargó la app o participación mínima.
+        </p>
+        <ul>
+            <li>Email estándar de agradecimiento</li>
+            <li>Resumen básico de la experiencia</li>
+            <li>Impacto mínimo (más probabilidad de volver si un líder lo trae)</li>
+        </ul>
+    </div>
+
+    <h4 style="color: var(--color-accent); margin-top: var(--spacing-md); margin-bottom: var(--spacing-sm);">
+        Flujo de Comunicación Post-Visita
+    </h4>
+
+    <div class="content-block">
+        <h4>Email/Push (T+1 día)</h4>
+        <ul>
+            <li>Espectáculos no vistos</li>
+            <li>Puntos ganados por los que sí vio</li>
+            <li>Enlace para descargar fotos de puntos de fotografía</li>
+            <li>Contenido dinámico: nombre, rango, texto según nivel</li>
+            <li>Encuesta de satisfacción con incentivo</li>
+        </ul>
+    </div>
+
+    <div class="content-block">
+        <h4>Seguimiento (T+7 días)</h4>
+        <ul>
+            <li>Si NPS > 8: Email de agradecimiento + programa "Invita a un amigo"</li>
+            <li>Si NPS < 6: Alertar equipo de atención al cliente para seguimiento personalizado</li>
+            <li>Ofertas para próxima visita según comportamiento</li>
+        </ul>
+    </div>
+</div>
