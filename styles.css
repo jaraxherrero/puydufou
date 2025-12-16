@@ -436,6 +436,41 @@ p {
   line-height: 1.6;
 }
 
+/* LinkedIn Link Styles */
+.linkedin-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: var(--spacing-sm);
+  padding: 0.5rem;
+  color: var(--color-accent);
+  transition: all var(--transition-normal);
+  border-radius: var(--radius-sm);
+}
+
+.linkedin-link:hover {
+  color: var(--color-secondary);
+  transform: scale(1.1);
+  background: rgba(212, 175, 55, 0.1);
+}
+
+.linkedin-link svg {
+  width: 28px;
+  height: 28px;
+  transition: transform var(--transition-normal);
+}
+
+.linkedin-link:hover svg {
+  transform: rotate(5deg);
+}
+
+/* Make team image clickable */
+.team-card a {
+  display: block;
+  text-decoration: none;
+}
+
+
 /* ===================================
    DOCUMENTATION SECTION
    =================================== */
@@ -719,18 +754,18 @@ p {
   display: none;
 }
 
-.doc-menu-item.has-submenu > .doc-menu-link::after {
+.doc-menu-item.has-submenu>.doc-menu-link::after {
   content: '▼';
   float: right;
   font-size: 0.8rem;
   transition: transform var(--transition-fast);
 }
 
-.doc-menu-item.has-submenu.open > .doc-menu-link::after {
+.doc-menu-item.has-submenu.open>.doc-menu-link::after {
   transform: rotate(180deg);
 }
 
-.doc-menu-item.has-submenu.open > .doc-submenu {
+.doc-menu-item.has-submenu.open>.doc-submenu {
   display: block;
 }
 
@@ -803,12 +838,12 @@ p {
   .doc-table {
     font-size: 0.9rem;
   }
-  
+
   .doc-table th,
   .doc-table td {
     padding: 0.75rem 0.5rem;
   }
-  
+
   .image-gallery {
     grid-template-columns: 1fr;
   }
